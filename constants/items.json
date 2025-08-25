@@ -1,0 +1,1438 @@
+{
+  "stone-pickaxe": {
+    "name": "Stone Pickaxe",
+    "id": "minecraft:stone_pickaxe",
+    "description": "A pickaxe made of stone. Used to mine stone and basic ores.",
+    "image": "/images/stone_pickaxe.png",
+    "crafting_recipe": [
+      ["cobblestone", "cobblestone", "cobblestone"],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 131,
+      "mining_speed": 4,
+      "attack_damage": 2,
+      "enchantability": 5
+    },
+    "tags": ["tool", "pickaxe", "stone", "overworld"],
+    "mineable_blocks": [
+      "Stone",
+      "Granite",
+      "Diorite",
+      "Andesite",
+      "Coal Ore",
+      "Iron Ore",
+      "Copper Ore",
+      "Lapis Lazuli Ore",
+      "Deepslate Coal Ore",
+      "Deepslate Iron Ore",
+      "Deepslate Copper Ore",
+      "Deepslate Lapis Lazuli Ore",
+      "Cobblestone",
+      "Stone Bricks",
+      "Mossy Cobblestone",
+      "Blackstone",
+      "Basalt",
+      "Smooth Basalt"
+    ]
+  },
+
+  "stone-axe": {
+    "name": "Stone Axe",
+    "id": "minecraft:stone_axe",
+    "description": "A stone axe. Great for chopping wood and a heavy-hitting melee option.",
+    "image": "/images/stone_axe.png",
+    "crafting_recipe": [
+      ["cobblestone", "cobblestone", null],
+      ["cobblestone", "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 131,
+      "mining_speed": 4,
+      "attack_damage": 9,
+      "enchantability": 5
+    },
+    "tags": ["tool", "axe", "stone", "overworld"],
+    "mineable_blocks": [
+      "Oak Log",
+      "Spruce Log",
+      "Birch Log",
+      "Jungle Log",
+      "Acacia Log",
+      "Dark Oak Log",
+      "Mangrove Log",
+      "Cherry Log",
+      "Crimson Stem",
+      "Warped Stem",
+      "Wood Planks",
+      "Barrel",
+      "Bookshelf",
+      "Crafting Table",
+      "Note Block",
+      "Beehive"
+    ]
+  },
+
+  "stone-shovel": {
+    "name": "Stone Shovel",
+    "id": "minecraft:stone_shovel",
+    "description": "A stone shovel. Best for digging dirt, sand, gravel, and snow.",
+    "image": "/images/stone_shovel.png",
+    "crafting_recipe": [
+      [null, "cobblestone", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 131,
+      "mining_speed": 4,
+      "attack_damage": 3.5,
+      "enchantability": 5
+    },
+    "tags": ["tool", "shovel", "stone", "overworld"],
+    "mineable_blocks": [
+      "Dirt",
+      "Grass Block",
+      "Coarse Dirt",
+      "Podzol",
+      "Rooted Dirt",
+      "Sand",
+      "Red Sand",
+      "Gravel",
+      "Clay",
+      "Snow",
+      "Snow Block",
+      "Powder Snow",
+      "Mud"
+    ]
+  },
+
+  "stone-hoe": {
+    "name": "Stone Hoe",
+    "id": "minecraft:stone_hoe",
+    "description": "A stone hoe. Used for tilling soil and quickly breaking certain plant blocks.",
+    "image": "/images/stone_hoe.png",
+    "crafting_recipe": [
+      ["cobblestone", "cobblestone", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 131,
+      "mining_speed": 4,
+      "attack_damage": 1,
+      "enchantability": 5
+    },
+    "tags": ["tool", "hoe", "stone", "farming"],
+    "mineable_blocks": [
+      "Leaves",
+      "Hay Bale",
+      "Target",
+      "Nether Wart Block",
+      "Warped Wart Block",
+      "Scaffolding",
+      "Sponge"
+    ]
+  },
+
+  "stone-sword": {
+    "name": "Stone Sword",
+    "id": "minecraft:stone_sword",
+    "description": "A stone sword. A basic melee weapon.",
+    "image": "/images/stone_sword.png",
+    "crafting_recipe": [
+      [null, "cobblestone", null],
+      [null, "cobblestone", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 131,
+      "mining_speed": 4,
+      "attack_damage": 5,
+      "enchantability": 5
+    },
+    "tags": ["weapon", "sword", "stone"],
+    "mineable_blocks": ["Cobweb", "Bamboo"]
+  },
+  "wooden-pickaxe": {
+    "name": "Wooden Pickaxe",
+    "id": "minecraft:wooden_pickaxe",
+    "description": "A basic pickaxe made of wood. Used to mine stone and coal.",
+    "image": "/images/wooden_pickaxe.png",
+    "crafting_recipe": [
+      ["planks", "planks", "planks"],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 59,
+      "mining_speed": 2,
+      "attack_damage": 2,
+      "enchantability": 15
+    },
+    "tags": ["tool", "pickaxe", "wood", "starter"],
+    "mineable_blocks": [
+      "Stone",
+      "Coal Ore",
+      "Cobblestone",
+      "Granite",
+      "Diorite",
+      "Andesite"
+    ]
+  },
+
+  "wooden-axe": {
+    "name": "Wooden Axe",
+    "id": "minecraft:wooden_axe",
+    "description": "A wooden axe. Useful for chopping wood and as a slow melee weapon.",
+    "image": "/images/wooden_axe.png",
+    "crafting_recipe": [
+      ["planks", "planks", null],
+      ["planks", "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 59,
+      "mining_speed": 2,
+      "attack_damage": 7,
+      "enchantability": 15
+    },
+    "tags": ["tool", "axe", "wood", "starter"],
+    "mineable_blocks": [
+      "Logs",
+      "Planks",
+      "Crafting Table",
+      "Bookshelf",
+      "Barrel"
+    ]
+  },
+
+  "wooden-shovel": {
+    "name": "Wooden Shovel",
+    "id": "minecraft:wooden_shovel",
+    "description": "A wooden shovel. Used for digging dirt, sand, gravel, and snow.",
+    "image": "/images/wooden_shovel.png",
+    "crafting_recipe": [
+      [null, "planks", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 59,
+      "mining_speed": 2,
+      "attack_damage": 2.5,
+      "enchantability": 15
+    },
+    "tags": ["tool", "shovel", "wood", "starter"],
+    "mineable_blocks": [
+      "Dirt",
+      "Grass Block",
+      "Sand",
+      "Red Sand",
+      "Gravel",
+      "Clay",
+      "Snow",
+      "Snow Block"
+    ]
+  },
+
+  "wooden-hoe": {
+    "name": "Wooden Hoe",
+    "id": "minecraft:wooden_hoe",
+    "description": "A wooden hoe. Used for farming and breaking plants faster.",
+    "image": "/images/wooden_hoe.png",
+    "crafting_recipe": [
+      ["planks", "planks", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 59,
+      "mining_speed": 2,
+      "attack_damage": 1,
+      "enchantability": 15
+    },
+    "tags": ["tool", "hoe", "wood", "farming"],
+    "mineable_blocks": [
+      "Leaves",
+      "Hay Bale",
+      "Target",
+      "Nether Wart Block",
+      "Warped Wart Block"
+    ]
+  },
+
+  "wooden-sword": {
+    "name": "Wooden Sword",
+    "id": "minecraft:wooden_sword",
+    "description": "A wooden sword. A weak melee weapon, often a first step for new players.",
+    "image": "/images/wooden_sword.png",
+    "crafting_recipe": [
+      [null, "planks", null],
+      [null, "planks", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 59,
+      "mining_speed": 2,
+      "attack_damage": 4,
+      "enchantability": 15
+    },
+    "tags": ["weapon", "sword", "wood", "starter"],
+    "mineable_blocks": ["Cobweb", "Bamboo"]
+  },
+  "iron-pickaxe": {
+    "name": "Iron Pickaxe",
+    "id": "minecraft:iron_pickaxe",
+    "description": "An iron pickaxe. Can mine nearly all ores including diamond and redstone.",
+    "image": "/images/iron_pickaxe.png",
+    "crafting_recipe": [
+      ["iron_ingot", "iron_ingot", "iron_ingot"],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 250,
+      "mining_speed": 6,
+      "attack_damage": 2,
+      "enchantability": 14
+    },
+    "tags": ["tool", "pickaxe", "iron", "overworld"],
+    "mineable_blocks": [
+      "Stone",
+      "Deepslate",
+      "Coal Ore",
+      "Iron Ore",
+      "Copper Ore",
+      "Lapis Lazuli Ore",
+      "Redstone Ore",
+      "Diamond Ore",
+      "Emerald Ore",
+      "Gold Ore",
+      "Nether Gold Ore",
+      "Nether Quartz Ore",
+      "Ancient Debris"
+    ]
+  },
+
+  "iron-axe": {
+    "name": "Iron Axe",
+    "id": "minecraft:iron_axe",
+    "description": "An iron axe. Faster at chopping wood and powerful in combat.",
+    "image": "/images/iron_axe.png",
+    "crafting_recipe": [
+      ["iron_ingot", "iron_ingot", null],
+      ["iron_ingot", "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 250,
+      "mining_speed": 6,
+      "attack_damage": 9,
+      "enchantability": 14
+    },
+    "tags": ["tool", "axe", "iron", "combat"],
+    "mineable_blocks": [
+      "Logs",
+      "Planks",
+      "Crafting Table",
+      "Bookshelf",
+      "Barrel",
+      "Beehive"
+    ]
+  },
+
+  "iron-shovel": {
+    "name": "Iron Shovel",
+    "id": "minecraft:iron_shovel",
+    "description": "An iron shovel. Faster at digging and with solid durability.",
+    "image": "/images/iron_shovel.png",
+    "crafting_recipe": [
+      [null, "iron_ingot", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 250,
+      "mining_speed": 6,
+      "attack_damage": 4.5,
+      "enchantability": 14
+    },
+    "tags": ["tool", "shovel", "iron"],
+    "mineable_blocks": [
+      "Dirt",
+      "Grass Block",
+      "Sand",
+      "Red Sand",
+      "Gravel",
+      "Clay",
+      "Snow",
+      "Snow Block",
+      "Powder Snow",
+      "Mud"
+    ]
+  },
+
+  "iron-hoe": {
+    "name": "Iron Hoe",
+    "id": "minecraft:iron_hoe",
+    "description": "An iron hoe. Useful for farming and breaking plants faster.",
+    "image": "/images/iron_hoe.png",
+    "crafting_recipe": [
+      ["iron_ingot", "iron_ingot", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 250,
+      "mining_speed": 6,
+      "attack_damage": 1,
+      "enchantability": 14
+    },
+    "tags": ["tool", "hoe", "iron", "farming"],
+    "mineable_blocks": [
+      "Leaves",
+      "Hay Bale",
+      "Target",
+      "Nether Wart Block",
+      "Warped Wart Block",
+      "Sponge"
+    ]
+  },
+
+  "iron-sword": {
+    "name": "Iron Sword",
+    "id": "minecraft:iron_sword",
+    "description": "An iron sword. Reliable mid-game melee weapon.",
+    "image": "/images/iron_sword.png",
+    "crafting_recipe": [
+      [null, "iron_ingot", null],
+      [null, "iron_ingot", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 250,
+      "mining_speed": 6,
+      "attack_damage": 6,
+      "enchantability": 14
+    },
+    "tags": ["weapon", "sword", "iron"],
+    "mineable_blocks": ["Cobweb", "Bamboo"]
+  },
+  "golden-pickaxe": {
+    "name": "Golden Pickaxe",
+    "id": "minecraft:golden_pickaxe",
+    "description": "A gold pickaxe. Extremely fast but fragile. Same mining level as wood (cannot mine iron, redstone, diamond, etc.).",
+    "image": "/images/golden_pickaxe.png",
+    "crafting_recipe": [
+      ["gold_ingot", "gold_ingot", "gold_ingot"],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 32,
+      "mining_speed": 12,
+      "attack_damage": 2,
+      "enchantability": 22
+    },
+    "tags": ["tool", "pickaxe", "gold", "fast"],
+    "mineable_blocks": [
+      "Stone",
+      "Cobblestone",
+      "Granite",
+      "Diorite",
+      "Andesite",
+      "Coal Ore",
+      "Deepslate (slow, drops nothing)",
+      "Netherrack",
+      "End Stone"
+    ]
+  },
+
+  "golden-axe": {
+    "name": "Golden Axe",
+    "id": "minecraft:golden_axe",
+    "description": "A gold axe. Very fast at chopping but breaks quickly; decent melee burst.",
+    "image": "/images/golden_axe.png",
+    "crafting_recipe": [
+      ["gold_ingot", "gold_ingot", null],
+      ["gold_ingot", "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 32,
+      "mining_speed": 12,
+      "attack_damage": 7,
+      "enchantability": 22
+    },
+    "tags": ["tool", "axe", "gold", "fast"],
+    "mineable_blocks": [
+      "All Logs",
+      "All Planks",
+      "Crafting Table",
+      "Bookshelf",
+      "Barrel",
+      "Beehive",
+      "Note Block",
+      "Ladder"
+    ]
+  },
+
+  "golden-shovel": {
+    "name": "Golden Shovel",
+    "id": "minecraft:golden_shovel",
+    "description": "A gold shovel. Extremely fast on dirt-like blocks but with very low durability.",
+    "image": "/images/golden_shovel.png",
+    "crafting_recipe": [
+      [null, "gold_ingot", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 32,
+      "mining_speed": 12,
+      "attack_damage": 2.5,
+      "enchantability": 22
+    },
+    "tags": ["tool", "shovel", "gold", "fast"],
+    "mineable_blocks": [
+      "Dirt",
+      "Grass Block",
+      "Coarse Dirt",
+      "Podzol",
+      "Rooted Dirt",
+      "Sand",
+      "Red Sand",
+      "Gravel",
+      "Clay",
+      "Snow",
+      "Snow Block",
+      "Powder Snow",
+      "Mud"
+    ]
+  },
+
+  "golden-hoe": {
+    "name": "Golden Hoe",
+    "id": "minecraft:golden_hoe",
+    "description": "A gold hoe. Super snappy for plants; mainly for farming or speed-stripping leaves.",
+    "image": "/images/golden_hoe.png",
+    "crafting_recipe": [
+      ["gold_ingot", "gold_ingot", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 32,
+      "mining_speed": 12,
+      "attack_damage": 1,
+      "enchantability": 22
+    },
+    "tags": ["tool", "hoe", "gold", "farming", "fast"],
+    "mineable_blocks": [
+      "Leaves",
+      "Hay Bale",
+      "Target",
+      "Nether Wart Block",
+      "Warped Wart Block",
+      "Scaffolding",
+      "Sponge"
+    ]
+  },
+
+  "golden-sword": {
+    "name": "Golden Sword",
+    "id": "minecraft:golden_sword",
+    "description": "A gold sword. Low damage and durability, but enchants very well.",
+    "image": "/images/golden_sword.png",
+    "crafting_recipe": [
+      [null, "gold_ingot", null],
+      [null, "gold_ingot", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 32,
+      "mining_speed": 12,
+      "attack_damage": 4,
+      "enchantability": 22
+    },
+    "tags": ["weapon", "sword", "gold", "fast", "high-enchantability"],
+    "mineable_blocks": ["Cobweb", "Bamboo"]
+  },
+  "diamond-pickaxe": {
+    "name": "Diamond Pickaxe",
+    "id": "minecraft:diamond_pickaxe",
+    "description": "A diamond pickaxe. Essential for mining obsidian and very durable.",
+    "image": "/images/diamond_pickaxe.png",
+    "crafting_recipe": [
+      ["diamond", "diamond", "diamond"],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 1561,
+      "mining_speed": 8,
+      "attack_damage": 5,
+      "enchantability": 10
+    },
+    "tags": ["tool", "pickaxe", "diamond", "endgame"],
+    "mineable_blocks": [
+      "All Overworld Ores",
+      "All Deepslate Ores",
+      "Obsidian",
+      "Ancient Debris",
+      "Nether Quartz Ore",
+      "Nether Gold Ore",
+      "End Stone",
+      "Crying Obsidian",
+      "Blackstone",
+      "Basalt",
+      "Polished Blackstone"
+    ]
+  },
+
+  "diamond-axe": {
+    "name": "Diamond Axe",
+    "id": "minecraft:diamond_axe",
+    "description": "A diamond axe. Durable and powerful, effective both for chopping wood and melee combat.",
+    "image": "/images/diamond_axe.png",
+    "crafting_recipe": [
+      ["diamond", "diamond", null],
+      ["diamond", "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 1561,
+      "mining_speed": 8,
+      "attack_damage": 9,
+      "enchantability": 10
+    },
+    "tags": ["tool", "axe", "diamond", "combat"],
+    "mineable_blocks": [
+      "All Logs",
+      "All Planks",
+      "Crafting Table",
+      "Bookshelf",
+      "Barrel",
+      "Beehive",
+      "Note Block"
+    ]
+  },
+
+  "diamond-shovel": {
+    "name": "Diamond Shovel",
+    "id": "minecraft:diamond_shovel",
+    "description": "A diamond shovel. Durable and efficient for digging.",
+    "image": "/images/diamond_shovel.png",
+    "crafting_recipe": [
+      [null, "diamond", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 1561,
+      "mining_speed": 8,
+      "attack_damage": 4.5,
+      "enchantability": 10
+    },
+    "tags": ["tool", "shovel", "diamond"],
+    "mineable_blocks": [
+      "Dirt",
+      "Grass Block",
+      "Coarse Dirt",
+      "Podzol",
+      "Sand",
+      "Red Sand",
+      "Gravel",
+      "Clay",
+      "Snow",
+      "Snow Block",
+      "Powder Snow",
+      "Mud"
+    ]
+  },
+
+  "diamond-hoe": {
+    "name": "Diamond Hoe",
+    "id": "minecraft:diamond_hoe",
+    "description": "A diamond hoe. Nearly unbreakable, useful for farming and stripping leaves quickly.",
+    "image": "/images/diamond_hoe.png",
+    "crafting_recipe": [
+      ["diamond", "diamond", null],
+      [null, "stick", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 1561,
+      "mining_speed": 8,
+      "attack_damage": 1,
+      "enchantability": 10
+    },
+    "tags": ["tool", "hoe", "diamond", "farming"],
+    "mineable_blocks": [
+      "Leaves",
+      "Hay Bale",
+      "Target",
+      "Nether Wart Block",
+      "Warped Wart Block",
+      "Sponge",
+      "Scaffolding"
+    ]
+  },
+
+  "diamond-sword": {
+    "name": "Diamond Sword",
+    "id": "minecraft:diamond_sword",
+    "description": "A diamond sword. Strong melee weapon with high durability.",
+    "image": "/images/diamond_sword.png",
+    "crafting_recipe": [
+      [null, "diamond", null],
+      [null, "diamond", null],
+      [null, "stick", null]
+    ],
+    "stats": {
+      "durability": 1561,
+      "mining_speed": 8,
+      "attack_damage": 7,
+      "enchantability": 10
+    },
+    "tags": ["weapon", "sword", "diamond", "endgame"],
+    "mineable_blocks": ["Cobweb", "Bamboo"]
+  },
+  "netherite-pickaxe": {
+    "name": "Netherite Pickaxe",
+    "id": "minecraft:netherite_pickaxe",
+    "description": "A netherite pickaxe. Stronger and more durable than diamond, resistant to fire and lava.",
+    "image": "/images/netherite_pickaxe.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_pickaxe",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 2031,
+      "mining_speed": 9,
+      "attack_damage": 6,
+      "enchantability": 15
+    },
+    "tags": ["tool", "pickaxe", "netherite", "endgame", "fire-resistant"],
+    "mineable_blocks": [
+      "All Diamond Pickaxe Blocks",
+      "Obsidian (faster than diamond)",
+      "Ancient Debris"
+    ]
+  },
+
+  "netherite-axe": {
+    "name": "Netherite Axe",
+    "id": "minecraft:netherite_axe",
+    "description": "A netherite axe. High-damage melee weapon and efficient woodcutter.",
+    "image": "/images/netherite_axe.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_axe",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 2031,
+      "mining_speed": 9,
+      "attack_damage": 10,
+      "enchantability": 15
+    },
+    "tags": ["tool", "axe", "netherite", "combat", "fire-resistant"],
+    "mineable_blocks": ["All Diamond Axe Blocks"]
+  },
+
+  "netherite-shovel": {
+    "name": "Netherite Shovel",
+    "id": "minecraft:netherite_shovel",
+    "description": "A netherite shovel. Extremely durable and fast for digging.",
+    "image": "/images/netherite_shovel.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_shovel",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 2031,
+      "mining_speed": 9,
+      "attack_damage": 5.5,
+      "enchantability": 15
+    },
+    "tags": ["tool", "shovel", "netherite", "fire-resistant"],
+    "mineable_blocks": ["All Diamond Shovel Blocks"]
+  },
+
+  "netherite-hoe": {
+    "name": "Netherite Hoe",
+    "id": "minecraft:netherite_hoe",
+    "description": "A netherite hoe. Ultra-durable for farming and breaking plants.",
+    "image": "/images/netherite_hoe.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_hoe",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 2031,
+      "mining_speed": 9,
+      "attack_damage": 1,
+      "enchantability": 15
+    },
+    "tags": ["tool", "hoe", "netherite", "farming", "fire-resistant"],
+    "mineable_blocks": ["All Diamond Hoe Blocks"]
+  },
+
+  "netherite-sword": {
+    "name": "Netherite Sword",
+    "id": "minecraft:netherite_sword",
+    "description": "A netherite sword. Strongest melee weapon, with high durability and fire resistance.",
+    "image": "/images/netherite_sword.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_sword",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 2031,
+      "mining_speed": 9,
+      "attack_damage": 8,
+      "enchantability": 15
+    },
+    "tags": ["weapon", "sword", "netherite", "endgame", "fire-resistant"],
+    "mineable_blocks": ["Cobweb", "Bamboo"]
+  },
+  "bow": {
+    "name": "Bow",
+    "id": "minecraft:bow",
+    "description": "A ranged weapon that fires arrows. Can be enchanted with Power, Flame, Infinity, and more.",
+    "image": "/images/bow.png",
+    "crafting_recipe": [
+      [null, "stick", "string"],
+      ["stick", null, "string"],
+      [null, "stick", "string"]
+    ],
+    "stats": {
+      "durability": 384,
+      "attack_damage": "Varies (arrows)",
+      "enchantability": 1
+    },
+    "tags": ["weapon", "ranged", "bow"],
+    "mineable_blocks": []
+  },
+
+  "crossbow": {
+    "name": "Crossbow",
+    "id": "minecraft:crossbow",
+    "description": "A ranged weapon that shoots arrows or fireworks. Slower than a bow but more powerful.",
+    "image": "/images/crossbow.png",
+    "crafting_recipe": [
+      ["stick", "string", "stick"],
+      ["stick", "iron_ingot", "stick"],
+      [null, "stick", "tripwire_hook"]
+    ],
+    "stats": {
+      "durability": 326,
+      "attack_damage": "Varies (arrows/fireworks)",
+      "enchantability": 1
+    },
+    "tags": ["weapon", "ranged", "crossbow"],
+    "mineable_blocks": []
+  },
+
+  "trident": {
+    "name": "Trident",
+    "id": "minecraft:trident",
+    "description": "A powerful melee and ranged weapon. Cannot be crafted; obtained by killing drowned mobs.",
+    "image": "/images/trident.png",
+    "crafting_recipe": null,
+    "stats": {
+      "durability": 250,
+      "attack_damage": 9,
+      "enchantability": 1
+    },
+    "tags": ["weapon", "melee", "ranged", "trident"],
+    "mineable_blocks": []
+  },
+
+  "shield": {
+    "name": "Shield",
+    "id": "minecraft:shield",
+    "description": "A defensive tool that blocks most attacks. Can be decorated with banners.",
+    "image": "/images/shield.png",
+    "crafting_recipe": [
+      ["planks", "iron_ingot", "planks"],
+      ["planks", "planks", "planks"],
+      [null, "planks", null]
+    ],
+    "stats": {
+      "durability": 337,
+      "attack_damage": null,
+      "enchantability": 1
+    },
+    "tags": ["defense", "shield"],
+    "mineable_blocks": []
+  },
+
+  "flint-and-steel": {
+    "name": "Flint and Steel",
+    "id": "minecraft:flint_and_steel",
+    "description": "A utility tool used to start fires and ignite TNT or Nether portals.",
+    "image": "/images/flint_and_steel.png",
+    "crafting_recipe": [
+      [null, "iron_ingot", null],
+      ["flint", null, null],
+      [null, null, null]
+    ],
+    "stats": {
+      "durability": 64,
+      "attack_damage": null,
+      "enchantability": 1
+    },
+    "tags": ["utility", "fire", "igniter"],
+    "mineable_blocks": ["TNT"]
+  },
+
+  "fishing-rod": {
+    "name": "Fishing Rod",
+    "id": "minecraft:fishing_rod",
+    "description": "Used to catch fish and treasure from water. Can also hook mobs and items.",
+    "image": "/images/fishing_rod.png",
+    "crafting_recipe": [
+      [null, "stick", null],
+      [null, "stick", "string"],
+      ["stick", null, "string"]
+    ],
+    "stats": {
+      "durability": 64,
+      "attack_damage": null,
+      "enchantability": 1
+    },
+    "tags": ["utility", "fishing"],
+    "mineable_blocks": []
+  },
+
+  "shears": {
+    "name": "Shears",
+    "id": "minecraft:shears",
+    "description": "A tool for shearing sheep, harvesting leaves, beehives, and cobwebs.",
+    "image": "/images/shears.png",
+    "crafting_recipe": [
+      [null, "iron_ingot", null],
+      ["iron_ingot", null, null],
+      [null, null, null]
+    ],
+    "stats": {
+      "durability": 238,
+      "attack_damage": null,
+      "enchantability": 1
+    },
+    "tags": ["tool", "utility", "shears"],
+    "mineable_blocks": ["Leaves", "Cobweb", "Vines", "Glow Lichen", "Beehive"]
+  },
+
+  "compass": {
+    "name": "Compass",
+    "id": "minecraft:compass",
+    "description": "Points toward the world spawn. Used in cartography recipes.",
+    "image": "/images/compass.png",
+    "crafting_recipe": [
+      ["iron_ingot", "iron_ingot", "iron_ingot"],
+      ["iron_ingot", "redstone", "iron_ingot"],
+      ["iron_ingot", "iron_ingot", "iron_ingot"]
+    ],
+    "stats": {
+      "durability": null,
+      "attack_damage": null,
+      "enchantability": 0
+    },
+    "tags": ["utility", "navigation"],
+    "mineable_blocks": []
+  },
+
+  "clock": {
+    "name": "Clock",
+    "id": "minecraft:clock",
+    "description": "Displays the time of day. Useful in underground builds.",
+    "image": "/images/clock.png",
+    "crafting_recipe": [
+      ["gold_ingot", "gold_ingot", "gold_ingot"],
+      ["gold_ingot", "redstone", "gold_ingot"],
+      ["gold_ingot", "gold_ingot", "gold_ingot"]
+    ],
+    "stats": {
+      "durability": null,
+      "attack_damage": null,
+      "enchantability": 0
+    },
+    "tags": ["utility", "timekeeping"],
+    "mineable_blocks": []
+  },
+  "leather-helmet": {
+    "name": "Leather Cap",
+    "id": "minecraft:leather_helmet",
+    "description": "Entry-level helmet. Dyable.",
+    "image": "/images/leather_helmet.png",
+    "crafting_recipe": [
+      ["leather", "leather", "leather"],
+      ["leather", null, "leather"],
+      [null, null, null]
+    ],
+    "stats": {
+      "durability": 55,
+      "armor": 1,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 15
+    },
+    "tags": ["armor", "helmet", "leather", "dyable"],
+    "mineable_blocks": []
+  },
+
+  "leather-chestplate": {
+    "name": "Leather Tunic",
+    "id": "minecraft:leather_chestplate",
+    "description": "Entry-level chest armor. Dyable.",
+    "image": "/images/leather_chestplate.png",
+    "crafting_recipe": [
+      ["leather", null, "leather"],
+      ["leather", "leather", "leather"],
+      ["leather", "leather", "leather"]
+    ],
+    "stats": {
+      "durability": 80,
+      "armor": 3,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 15
+    },
+    "tags": ["armor", "chestplate", "leather", "dyable"],
+    "mineable_blocks": []
+  },
+
+  "leather-leggings": {
+    "name": "Leather Pants",
+    "id": "minecraft:leather_leggings",
+    "description": "Entry-level leg armor. Dyable.",
+    "image": "/images/leather_leggings.png",
+    "crafting_recipe": [
+      ["leather", "leather", "leather"],
+      ["leather", null, "leather"],
+      ["leather", null, "leather"]
+    ],
+    "stats": {
+      "durability": 75,
+      "armor": 2,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 15
+    },
+    "tags": ["armor", "leggings", "leather", "dyable"],
+    "mineable_blocks": []
+  },
+
+  "leather-boots": {
+    "name": "Leather Boots",
+    "id": "minecraft:leather_boots",
+    "description": "Entry-level boots. Dyable.",
+    "image": "/images/leather_boots.png",
+    "crafting_recipe": [
+      [null, null, null],
+      ["leather", null, "leather"],
+      ["leather", null, "leather"]
+    ],
+    "stats": {
+      "durability": 65,
+      "armor": 1,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 15
+    },
+    "tags": ["armor", "boots", "leather", "dyable"],
+    "mineable_blocks": []
+  },
+
+  "iron-helmet": {
+    "name": "Iron Helmet",
+    "id": "minecraft:iron_helmet",
+    "description": "Reliable mid-game helmet.",
+    "image": "/images/iron_helmet.png",
+    "crafting_recipe": [
+      ["iron_ingot", "iron_ingot", "iron_ingot"],
+      ["iron_ingot", null, "iron_ingot"],
+      [null, null, null]
+    ],
+    "stats": {
+      "durability": 165,
+      "armor": 2,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 9
+    },
+    "tags": ["armor", "helmet", "iron"],
+    "mineable_blocks": []
+  },
+
+  "iron-chestplate": {
+    "name": "Iron Chestplate",
+    "id": "minecraft:iron_chestplate",
+    "description": "Solid all-around protection.",
+    "image": "/images/iron_chestplate.png",
+    "crafting_recipe": [
+      ["iron_ingot", null, "iron_ingot"],
+      ["iron_ingot", "iron_ingot", "iron_ingot"],
+      ["iron_ingot", "iron_ingot", "iron_ingot"]
+    ],
+    "stats": {
+      "durability": 240,
+      "armor": 6,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 9
+    },
+    "tags": ["armor", "chestplate", "iron"],
+    "mineable_blocks": []
+  },
+
+  "iron-leggings": {
+    "name": "Iron Leggings",
+    "id": "minecraft:iron_leggings",
+    "description": "Mid-game leg armor.",
+    "image": "/images/iron_leggings.png",
+    "crafting_recipe": [
+      ["iron_ingot", "iron_ingot", "iron_ingot"],
+      ["iron_ingot", null, "iron_ingot"],
+      ["iron_ingot", null, "iron_ingot"]
+    ],
+    "stats": {
+      "durability": 225,
+      "armor": 5,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 9
+    },
+    "tags": ["armor", "leggings", "iron"],
+    "mineable_blocks": []
+  },
+
+  "iron-boots": {
+    "name": "Iron Boots",
+    "id": "minecraft:iron_boots",
+    "description": "Mid-game boots.",
+    "image": "/images/iron_boots.png",
+    "crafting_recipe": [
+      [null, null, null],
+      ["iron_ingot", null, "iron_ingot"],
+      ["iron_ingot", null, "iron_ingot"]
+    ],
+    "stats": {
+      "durability": 195,
+      "armor": 2,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 9
+    },
+    "tags": ["armor", "boots", "iron"],
+    "mineable_blocks": []
+  },
+
+  "golden-helmet": {
+    "name": "Golden Helmet",
+    "id": "minecraft:golden_helmet",
+    "description": "High enchantability; piglins won’t attack if you wear any gold piece.",
+    "image": "/images/golden_helmet.png",
+    "crafting_recipe": [
+      ["gold_ingot", "gold_ingot", "gold_ingot"],
+      ["gold_ingot", null, "gold_ingot"],
+      [null, null, null]
+    ],
+    "stats": {
+      "durability": 77,
+      "armor": 2,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 25
+    },
+    "tags": ["armor", "helmet", "gold", "piglin-safe"],
+    "mineable_blocks": []
+  },
+
+  "golden-chestplate": {
+    "name": "Golden Chestplate",
+    "id": "minecraft:golden_chestplate",
+    "description": "Fragile but enchants well.",
+    "image": "/images/golden_chestplate.png",
+    "crafting_recipe": [
+      ["gold_ingot", null, "gold_ingot"],
+      ["gold_ingot", "gold_ingot", "gold_ingot"],
+      ["gold_ingot", "gold_ingot", "gold_ingot"]
+    ],
+    "stats": {
+      "durability": 112,
+      "armor": 5,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 25
+    },
+    "tags": ["armor", "chestplate", "gold"],
+    "mineable_blocks": []
+  },
+
+  "golden-leggings": {
+    "name": "Golden Leggings",
+    "id": "minecraft:golden_leggings",
+    "description": "Fragile but very enchantable.",
+    "image": "/images/golden_leggings.png",
+    "crafting_recipe": [
+      ["gold_ingot", "gold_ingot", "gold_ingot"],
+      ["gold_ingot", null, "gold_ingot"],
+      ["gold_ingot", null, "gold_ingot"]
+    ],
+    "stats": {
+      "durability": 105,
+      "armor": 3,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 25
+    },
+    "tags": ["armor", "leggings", "gold"],
+    "mineable_blocks": []
+  },
+
+  "golden-boots": {
+    "name": "Golden Boots",
+    "id": "minecraft:golden_boots",
+    "description": "Wear any gold armor to pacify piglins.",
+    "image": "/images/golden_boots.png",
+    "crafting_recipe": [
+      [null, null, null],
+      ["gold_ingot", null, "gold_ingot"],
+      ["gold_ingot", null, "gold_ingot"]
+    ],
+    "stats": {
+      "durability": 91,
+      "armor": 1,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 25
+    },
+    "tags": ["armor", "boots", "gold", "piglin-safe"],
+    "mineable_blocks": []
+  },
+
+  "diamond-helmet": {
+    "name": "Diamond Helmet",
+    "id": "minecraft:diamond_helmet",
+    "description": "High-end helmet with toughness.",
+    "image": "/images/diamond_helmet.png",
+    "crafting_recipe": [
+      ["diamond", "diamond", "diamond"],
+      ["diamond", null, "diamond"],
+      [null, null, null]
+    ],
+    "stats": {
+      "durability": 363,
+      "armor": 3,
+      "armor_toughness": 2,
+      "knockback_resistance": 0,
+      "enchantability": 10
+    },
+    "tags": ["armor", "helmet", "diamond", "endgame"],
+    "mineable_blocks": []
+  },
+
+  "diamond-chestplate": {
+    "name": "Diamond Chestplate",
+    "id": "minecraft:diamond_chestplate",
+    "description": "Top-tier protection before Netherite.",
+    "image": "/images/diamond_chestplate.png",
+    "crafting_recipe": [
+      ["diamond", null, "diamond"],
+      ["diamond", "diamond", "diamond"],
+      ["diamond", "diamond", "diamond"]
+    ],
+    "stats": {
+      "durability": 528,
+      "armor": 8,
+      "armor_toughness": 2,
+      "knockback_resistance": 0,
+      "enchantability": 10
+    },
+    "tags": ["armor", "chestplate", "diamond", "endgame"],
+    "mineable_blocks": []
+  },
+
+  "diamond-leggings": {
+    "name": "Diamond Leggings",
+    "id": "minecraft:diamond_leggings",
+    "description": "Endgame leg armor with toughness.",
+    "image": "/images/diamond_leggings.png",
+    "crafting_recipe": [
+      ["diamond", "diamond", "diamond"],
+      ["diamond", null, "diamond"],
+      ["diamond", null, "diamond"]
+    ],
+    "stats": {
+      "durability": 495,
+      "armor": 6,
+      "armor_toughness": 2,
+      "knockback_resistance": 0,
+      "enchantability": 10
+    },
+    "tags": ["armor", "leggings", "diamond", "endgame"],
+    "mineable_blocks": []
+  },
+
+  "diamond-boots": {
+    "name": "Diamond Boots",
+    "id": "minecraft:diamond_boots",
+    "description": "Endgame boots; great for Depth Strider/Frost Walker.",
+    "image": "/images/diamond_boots.png",
+    "crafting_recipe": [
+      [null, null, null],
+      ["diamond", null, "diamond"],
+      ["diamond", null, "diamond"]
+    ],
+    "stats": {
+      "durability": 429,
+      "armor": 3,
+      "armor_toughness": 2,
+      "knockback_resistance": 0,
+      "enchantability": 10
+    },
+    "tags": ["armor", "boots", "diamond", "endgame"],
+    "mineable_blocks": []
+  },
+  "netherite-helmet": {
+    "name": "Netherite Helmet",
+    "id": "minecraft:netherite_helmet",
+    "description": "Upgraded from diamond. Fire- and lava-resistant item with higher toughness.",
+    "image": "/images/netherite_helmet.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_helmet",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 407,
+      "armor": 3,
+      "armor_toughness": 3,
+      "knockback_resistance": 0.1,
+      "enchantability": 15
+    },
+    "tags": ["armor", "helmet", "netherite", "fire-resistant", "endgame"],
+    "mineable_blocks": []
+  },
+
+  "netherite-chestplate": {
+    "name": "Netherite Chestplate",
+    "id": "minecraft:netherite_chestplate",
+    "description": "Highest protection in the game, with extra toughness and knockback resistance.",
+    "image": "/images/netherite_chestplate.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_chestplate",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 592,
+      "armor": 8,
+      "armor_toughness": 3,
+      "knockback_resistance": 0.1,
+      "enchantability": 15
+    },
+    "tags": ["armor", "chestplate", "netherite", "fire-resistant", "endgame"],
+    "mineable_blocks": []
+  },
+
+  "netherite-leggings": {
+    "name": "Netherite Leggings",
+    "id": "minecraft:netherite_leggings",
+    "description": "Top-tier leg armor with toughness and knockback resistance.",
+    "image": "/images/netherite_leggings.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_leggings",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 555,
+      "armor": 6,
+      "armor_toughness": 3,
+      "knockback_resistance": 0.1,
+      "enchantability": 15
+    },
+    "tags": ["armor", "leggings", "netherite", "fire-resistant", "endgame"],
+    "mineable_blocks": []
+  },
+
+  "netherite-boots": {
+    "name": "Netherite Boots",
+    "id": "minecraft:netherite_boots",
+    "description": "Ultra-durable boots. Pair with Soul Speed or Depth Strider.",
+    "image": "/images/netherite_boots.png",
+    "crafting_recipe": {
+      "type": "smithing",
+      "base": "diamond_boots",
+      "addition": "netherite_ingot",
+      "template": "netherite_upgrade_smithing_template"
+    },
+    "stats": {
+      "durability": 481,
+      "armor": 3,
+      "armor_toughness": 3,
+      "knockback_resistance": 0.1,
+      "enchantability": 15
+    },
+    "tags": ["armor", "boots", "netherite", "fire-resistant", "endgame"],
+    "mineable_blocks": []
+  },
+
+  "turtle-shell": {
+    "name": "Turtle Shell",
+    "id": "minecraft:turtle_helmet",
+    "description": "Helmet crafted from scutes. Grants brief Water Breathing when underwater.",
+    "image": "/images/turtle_helmet.png",
+    "crafting_recipe": [
+      ["scute", "scute", "scute"],
+      ["scute", null, "scute"],
+      [null, null, null]
+    ],
+    "stats": {
+      "durability": 275,
+      "armor": 2,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 9
+    },
+    "tags": ["armor", "helmet", "turtle", "water-breathing"],
+    "mineable_blocks": []
+  },
+
+  "elytra": {
+    "name": "Elytra",
+    "id": "minecraft:elytra",
+    "description": "Wings that allow gliding. Found in End Cities (ships). Repair with Phantom Membrane or Mending.",
+    "image": "/images/elytra.png",
+    "crafting_recipe": null,
+    "stats": {
+      "durability": 432,
+      "armor": 0,
+      "armor_toughness": 0,
+      "knockback_resistance": 0,
+      "enchantability": 1
+    },
+    "tags": ["utility", "movement", "elytra", "end-city"],
+    "mineable_blocks": []
+  }
+}
