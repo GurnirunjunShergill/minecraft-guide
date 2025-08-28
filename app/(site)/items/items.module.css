@@ -1,0 +1,9 @@
+.search-results-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.search-results-container .search-result-item {
+  /* flex: 0 0 25%; */
+}

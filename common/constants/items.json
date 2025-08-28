@@ -1763,7 +1763,17 @@
     "image": "/images/golden_carrot.png",
     "crafting_recipe": {
       "type": "shapeless",
-      "ingredients": ["carrot", "gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget"]
+      "ingredients": [
+        "carrot",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget"
+      ]
     },
     "stats": { "hunger": 6, "saturation": 14.4, "effects": [] },
     "tags": ["food", "gold", "brewing"],
@@ -1821,7 +1831,15 @@
     "image": "/images/beetroot_soup.png",
     "crafting_recipe": {
       "type": "shapeless",
-      "ingredients": ["bowl", "beetroot", "beetroot", "beetroot", "beetroot", "beetroot", "beetroot"]
+      "ingredients": [
+        "bowl",
+        "beetroot",
+        "beetroot",
+        "beetroot",
+        "beetroot",
+        "beetroot",
+        "beetroot"
+      ]
     },
     "stats": { "hunger": 6, "saturation": 7.2, "effects": [] },
     "tags": ["food", "bowl-food"],
@@ -1913,7 +1931,11 @@
       ["gold_ingot", "apple", "gold_ingot"],
       ["gold_ingot", "gold_ingot", "gold_ingot"]
     ],
-    "stats": { "hunger": 4, "saturation": 9.6, "effects": ["Regeneration (short)", "Absorption I"] },
+    "stats": {
+      "hunger": 4,
+      "saturation": 9.6,
+      "effects": ["Regeneration (short)", "Absorption I"]
+    },
     "tags": ["food", "gold", "combat"],
     "mineable_blocks": []
   },
@@ -1927,7 +1949,12 @@
     "stats": {
       "hunger": 4,
       "saturation": 9.6,
-      "effects": ["Absorption IV", "Regeneration II (short)", "Resistance", "Fire Resistance"]
+      "effects": [
+        "Absorption IV",
+        "Regeneration II (short)",
+        "Resistance",
+        "Fire Resistance"
+      ]
     },
     "tags": ["food", "rare", "loot"],
     "mineable_blocks": []
@@ -2027,7 +2054,11 @@
     "description": "Obtained by using a bucket on a cow; removes status effects.",
     "image": "/images/milk_bucket.png",
     "crafting_recipe": null,
-    "stats": { "hunger": 0, "saturation": 0, "effects": ["Removes all effects"] },
+    "stats": {
+      "hunger": 0,
+      "saturation": 0,
+      "effects": ["Removes all effects"]
+    },
     "tags": ["utility", "food", "status-cleanse"],
     "mineable_blocks": []
   },
@@ -2698,7 +2729,11 @@
       ["log", "coal", "log"],
       ["log", "log", "log"]
     ],
-    "stats": { "light_level": 15, "cooks_items": 4, "smoke_signal_height": "up to 24 (64 with hay bale)" },
+    "stats": {
+      "light_level": 15,
+      "cooks_items": 4,
+      "smoke_signal_height": "up to 24 (64 with hay bale)"
+    },
     "tags": ["block", "decor", "light", "cooking"],
     "mineable_blocks": []
   },
@@ -2713,7 +2748,11 @@
       ["log", "soul_soil", "log"],
       ["log", "log", "log"]
     ],
-    "stats": { "light_level": 10, "cooks_items": 4, "damage": "higher than campfire" },
+    "stats": {
+      "light_level": 10,
+      "cooks_items": 4,
+      "damage": "higher than campfire"
+    },
     "tags": ["block", "decor", "light", "nether"],
     "mineable_blocks": []
   },
@@ -2825,7 +2864,17 @@
     "image": "/images/glistering_melon_slice.png",
     "crafting_recipe": {
       "type": "shapeless",
-      "ingredients": ["melon_slice", "gold_nugget","gold_nugget","gold_nugget","gold_nugget","gold_nugget","gold_nugget","gold_nugget","gold_nugget"]
+      "ingredients": [
+        "melon_slice",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget"
+      ]
     },
     "stats": {},
     "tags": ["brewing", "ingredient"],
@@ -2873,7 +2922,10 @@
     "id": "minecraft:magma_cream",
     "description": "Ingredient for Fire Resistance.",
     "image": "/images/magma_cream.png",
-    "crafting_recipe": { "type": "shapeless", "ingredients": ["slime_ball", "blaze_powder"] },
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["slime_ball", "blaze_powder"]
+    },
     "stats": {},
     "tags": ["brewing", "nether"],
     "mineable_blocks": []
@@ -2950,7 +3002,10 @@
     "id": "minecraft:potion{Potion:\"minecraft:strong_healing\"}",
     "description": "Instantly restores health (level depends on glowstone).",
     "image": "/images/potion_healing.png",
-    "brewing_recipe": { "base": "awkward-potion", "ingredient": "glistering-melon-slice" },
+    "brewing_recipe": {
+      "base": "awkward-potion",
+      "ingredient": "glistering-melon-slice"
+    },
     "stats": { "effect": "Instant Health I/II" },
     "tags": ["brewing", "potion", "healing"],
     "mineable_blocks": []
@@ -2983,7 +3038,10 @@
     "id": "minecraft:potion{Potion:\"minecraft:strength\"}",
     "description": "Increases melee damage.",
     "image": "/images/potion_strength.png",
-    "brewing_recipe": { "base": "awkward-potion", "ingredient": "blaze-powder" },
+    "brewing_recipe": {
+      "base": "awkward-potion",
+      "ingredient": "blaze-powder"
+    },
     "stats": { "effect": "Strength I/II, extendable" },
     "tags": ["brewing", "potion", "combat"],
     "mineable_blocks": []
@@ -2994,7 +3052,10 @@
     "id": "minecraft:potion{Potion:\"minecraft:night_vision\"}",
     "description": "Brightens vision in darkness and underwater.",
     "image": "/images/potion_night_vision.png",
-    "brewing_recipe": { "base": "awkward-potion", "ingredient": "golden-carrot" },
+    "brewing_recipe": {
+      "base": "awkward-potion",
+      "ingredient": "golden-carrot"
+    },
     "stats": { "effect": "Night Vision (extendable)" },
     "tags": ["brewing", "potion", "utility"],
     "mineable_blocks": []
@@ -3005,7 +3066,10 @@
     "id": "minecraft:potion{Potion:\"minecraft:invisibility\"}",
     "description": "Makes the player invisible (armor & held items still visible).",
     "image": "/images/potion_invisibility.png",
-    "brewing_recipe": { "base": "potion-night-vision", "ingredient": "fermented-spider-eye" },
+    "brewing_recipe": {
+      "base": "potion-night-vision",
+      "ingredient": "fermented-spider-eye"
+    },
     "stats": { "effect": "Invisibility (extendable)" },
     "tags": ["brewing", "potion", "stealth"],
     "mineable_blocks": []
@@ -3027,7 +3091,10 @@
     "id": "minecraft:potion{Potion:\"minecraft:slow_falling\"}",
     "description": "Negates fall damage and slows descent.",
     "image": "/images/potion_slow_falling.png",
-    "brewing_recipe": { "base": "awkward-potion", "ingredient": "phantom-membrane" },
+    "brewing_recipe": {
+      "base": "awkward-potion",
+      "ingredient": "phantom-membrane"
+    },
     "stats": { "effect": "Slow Falling (extendable)" },
     "tags": ["brewing", "potion", "mobility"],
     "mineable_blocks": []
@@ -3060,7 +3127,10 @@
     "id": "minecraft:potion{Potion:\"minecraft:harming\"}",
     "description": "Instant damage; created by inverting Healing or Poison.",
     "image": "/images/potion_harming.png",
-    "brewing_recipe": { "base": "potion-healing OR potion-poison", "ingredient": "fermented-spider-eye" },
+    "brewing_recipe": {
+      "base": "potion-healing OR potion-poison",
+      "ingredient": "fermented-spider-eye"
+    },
     "stats": { "effect": "Instant Damage I/II" },
     "tags": ["brewing", "potion", "negative"],
     "mineable_blocks": []
@@ -3071,12 +3141,22 @@
     "description": "Common undead hostile that burns in sunlight. Can convert villagers.",
     "image": "/images/zombie.png",
     "crafting_recipe": null,
-    "stats": { "health": 20, "attack_damage": 2-6, "spawn": "Overworld night/darkness", "special": ["Burns in sun", "Calls reinforcements (hard)"] },
+    "stats": {
+      "health": 20,
+      "attack_damage": "2-6",
+      "spawn": "Overworld night/darkness",
+      "special": ["Burns in sun", "Calls reinforcements (hard)"]
+    },
     "tags": ["mob", "hostile", "undead", "overworld"],
     "mineable_blocks": [],
     "drops": [
       { "item": "rotten_flesh", "min": 0, "max": 2, "chance": 1.0 },
-      { "item": "iron_ingot|carrot|potato", "min": 1, "max": 1, "chance": 0.025 },
+      {
+        "item": "iron_ingot|carrot|potato",
+        "min": 1,
+        "max": 1,
+        "chance": 0.025
+      },
       { "item": "equipment (rare)", "min": 1, "max": 1, "chance": 0.05 }
     ]
   },
@@ -3087,7 +3167,11 @@
     "description": "Ranged hostile that shoots arrows.",
     "image": "/images/skeleton.png",
     "crafting_recipe": null,
-    "stats": { "health": 20, "attack_damage": "arrows", "spawn": "Overworld night/darkness" },
+    "stats": {
+      "health": 20,
+      "attack_damage": "arrows",
+      "spawn": "Overworld night/darkness"
+    },
     "tags": ["mob", "hostile", "undead", "overworld", "ranged"],
     "mineable_blocks": [],
     "drops": [
@@ -3103,13 +3187,29 @@
     "description": "Silent exploder; drops music discs if killed by a skeleton.",
     "image": "/images/creeper.png",
     "crafting_recipe": null,
-    "stats": { "health": 20, "attack_damage": "explosion", "spawn": "Overworld night/darkness" },
+    "stats": {
+      "health": 20,
+      "attack_damage": "explosion",
+      "spawn": "Overworld night/darkness"
+    },
     "tags": ["mob", "hostile", "overworld", "explosive"],
     "mineable_blocks": [],
     "drops": [
       { "item": "gunpowder", "min": 0, "max": 2, "chance": 1.0 },
-      { "item": "music_disc (random)", "min": 1, "max": 1, "chance": 1.0, "note": "Only if killed by skeleton" },
-      { "item": "creeper_head", "min": 1, "max": 1, "chance": 1.0, "note": "Only charged creeper kills another creeper" }
+      {
+        "item": "music_disc (random)",
+        "min": 1,
+        "max": 1,
+        "chance": 1.0,
+        "note": "Only if killed by skeleton"
+      },
+      {
+        "item": "creeper_head",
+        "min": 1,
+        "max": 1,
+        "chance": 1.0,
+        "note": "Only charged creeper kills another creeper"
+      }
     ]
   },
 
@@ -3119,7 +3219,11 @@
     "description": "Climbs walls; neutral at high light levels.",
     "image": "/images/spider.png",
     "crafting_recipe": null,
-    "stats": { "health": 16, "attack_damage": 2, "spawn": "Overworld night/darkness" },
+    "stats": {
+      "health": 16,
+      "attack_damage": 2,
+      "spawn": "Overworld night/darkness"
+    },
     "tags": ["mob", "hostile", "arthropod", "overworld"],
     "mineable_blocks": [],
     "drops": [
@@ -3134,12 +3238,14 @@
     "description": "Teleports and becomes hostile when looked at or attacked; picks up blocks.",
     "image": "/images/enderman.png",
     "crafting_recipe": null,
-    "stats": { "health": 40, "attack_damage": 4-10, "spawn": "End; also Overworld/Nether spawns" },
+    "stats": {
+      "health": 40,
+      "attack_damage": "4-10",
+      "spawn": "End; also Overworld/Nether spawns"
+    },
     "tags": ["mob", "neutral", "end"],
     "mineable_blocks": [],
-    "drops": [
-      { "item": "ender_pearl", "min": 0, "max": 1, "chance": 1.0 }
-    ]
+    "drops": [{ "item": "ender_pearl", "min": 0, "max": 1, "chance": 1.0 }]
   },
 
   "witch": {
@@ -3148,11 +3254,20 @@
     "description": "Throws harmful potions; drinks buffs to survive.",
     "image": "/images/witch.png",
     "crafting_recipe": null,
-    "stats": { "health": 26, "attack_damage": "potions", "spawn": "Overworld swamps/night; huts" },
+    "stats": {
+      "health": 26,
+      "attack_damage": "potions",
+      "spawn": "Overworld swamps/night; huts"
+    },
     "tags": ["mob", "hostile", "overworld", "caster"],
     "mineable_blocks": [],
     "drops": [
-      { "item": "glowstone_dust|redstone|sugar|stick|spider_eye|gunpowder", "min": 0, "max": 2, "chance": 1.0 },
+      {
+        "item": "glowstone_dust|redstone|sugar|stick|spider_eye|gunpowder",
+        "min": 0,
+        "max": 2,
+        "chance": 1.0
+      },
       { "item": "potion (on death, rare)", "min": 1, "max": 1, "chance": 0.05 }
     ]
   },
@@ -3163,11 +3278,21 @@
     "description": "Splits into smaller slimes when killed; spawns in slime chunks and swamps.",
     "image": "/images/slime.png",
     "crafting_recipe": null,
-    "stats": { "health": "4/16/32 (small/med/large)", "attack_damage": "1/3/4", "spawn": "Swamps at night; slime chunks" },
+    "stats": {
+      "health": "4/16/32 (small/med/large)",
+      "attack_damage": "1/3/4",
+      "spawn": "Swamps at night; slime chunks"
+    },
     "tags": ["mob", "hostile", "overworld"],
     "mineable_blocks": [],
     "drops": [
-      { "item": "slime_ball", "min": 0, "max": 2, "chance": 1.0, "note": "Small slimes only" }
+      {
+        "item": "slime_ball",
+        "min": 0,
+        "max": 2,
+        "chance": 1.0,
+        "note": "Small slimes only"
+      }
     ]
   },
 
@@ -3177,7 +3302,11 @@
     "description": "Passive bovine; source of leather, beef, and milk.",
     "image": "/images/cow.png",
     "crafting_recipe": null,
-    "stats": { "health": 10, "spawn": "Overworld grassy biomes", "breed": "Wheat" },
+    "stats": {
+      "health": 10,
+      "spawn": "Overworld grassy biomes",
+      "breed": "Wheat"
+    },
     "tags": ["mob", "passive", "overworld", "farm"],
     "mineable_blocks": [],
     "drops": [
@@ -3192,7 +3321,11 @@
     "description": "Passive; can be sheared for wool. Regrows wool by eating grass.",
     "image": "/images/sheep.png",
     "crafting_recipe": null,
-    "stats": { "health": 8, "spawn": "Overworld grassy biomes", "breed": "Wheat" },
+    "stats": {
+      "health": 8,
+      "spawn": "Overworld grassy biomes",
+      "breed": "Wheat"
+    },
     "tags": ["mob", "passive", "overworld", "farm"],
     "mineable_blocks": [],
     "drops": [
@@ -3208,12 +3341,14 @@
     "description": "Passive; mounts with a saddle and carrot on a stick.",
     "image": "/images/pig.png",
     "crafting_recipe": null,
-    "stats": { "health": 10, "spawn": "Overworld grassy biomes", "breed": "Carrot/Beetroot/Potato" },
+    "stats": {
+      "health": 10,
+      "spawn": "Overworld grassy biomes",
+      "breed": "Carrot/Beetroot/Potato"
+    },
     "tags": ["mob", "passive", "overworld", "farm"],
     "mineable_blocks": [],
-    "drops": [
-      { "item": "porkchop", "min": 1, "max": 3, "chance": 1.0 }
-    ]
+    "drops": [{ "item": "porkchop", "min": 1, "max": 3, "chance": 1.0 }]
   },
 
   "chicken": {
@@ -3238,12 +3373,14 @@
     "description": "Flying hostile found in Nether fortresses; shoots fire.",
     "image": "/images/blaze.png",
     "crafting_recipe": null,
-    "stats": { "health": 20, "attack_damage": "fireballs/melee", "spawn": "Nether fortress spawners" },
+    "stats": {
+      "health": 20,
+      "attack_damage": "fireballs/melee",
+      "spawn": "Nether fortress spawners"
+    },
     "tags": ["mob", "hostile", "nether", "ranged"],
     "mineable_blocks": [],
-    "drops": [
-      { "item": "blaze_rod", "min": 0, "max": 1, "chance": 1.0 }
-    ]
+    "drops": [{ "item": "blaze_rod", "min": 0, "max": 1, "chance": 1.0 }]
   },
 
   "ghast": {
@@ -3252,7 +3389,11 @@
     "description": "Large floating mob that shoots explosive fireballs.",
     "image": "/images/ghast.png",
     "crafting_recipe": null,
-    "stats": { "health": 10, "attack_damage": "fireballs", "spawn": "Nether wastes, soulsand valleys" },
+    "stats": {
+      "health": 10,
+      "attack_damage": "fireballs",
+      "spawn": "Nether wastes, soulsand valleys"
+    },
     "tags": ["mob", "hostile", "nether", "ranged"],
     "mineable_blocks": [],
     "drops": [
@@ -3283,7 +3424,11 @@
     "description": "Ocean Monument defender with a laser attack and thorns.",
     "image": "/images/guardian.png",
     "crafting_recipe": null,
-    "stats": { "health": 30, "attack_damage": "laser/thorns", "spawn": "Ocean Monuments" },
+    "stats": {
+      "health": 30,
+      "attack_damage": "laser/thorns",
+      "spawn": "Ocean Monuments"
+    },
     "tags": ["mob", "hostile", "ocean"],
     "mineable_blocks": [],
     "drops": [
@@ -3299,12 +3444,27 @@
     "description": "Final boss of the End dimension; defeating it spawns an exit portal and an End gateway.",
     "image": "/images/ender_dragon.png",
     "crafting_recipe": null,
-    "stats": { "health": 200, "attack_damage": "dragon breath/charge", "spawn": "The End (one per world initially)" },
+    "stats": {
+      "health": 200,
+      "attack_damage": "dragon breath/charge",
+      "spawn": "The End (one per world initially)"
+    },
     "tags": ["mob", "boss", "end"],
     "mineable_blocks": [],
     "drops": [
-      { "item": "dragon_egg", "min": 1, "max": 1, "chance": 1.0, "note": "First kill only" },
-      { "item": "dragon_breath (collect with bottle)", "min": 1, "max": 64, "chance": 1.0 }
+      {
+        "item": "dragon_egg",
+        "min": 1,
+        "max": 1,
+        "chance": 1.0,
+        "note": "First kill only"
+      },
+      {
+        "item": "dragon_breath (collect with bottle)",
+        "min": 1,
+        "max": 64,
+        "chance": 1.0
+      }
     ]
   },
   "oak-boat": {
@@ -3405,51 +3565,6 @@
     ],
     "stats": { "length_per_craft": 16 },
     "tags": ["transport", "rail"],
-    "mineable_blocks": []
-  },
-
-  "powered-rail": {
-    "name": "Powered Rail",
-    "id": "minecraft:powered_rail",
-    "description": "Accelerates minecarts when powered.",
-    "image": "/images/powered_rail.png",
-    "crafting_recipe": [
-      ["gold_ingot", null, "gold_ingot"],
-      ["gold_ingot", "stick", "gold_ingot"],
-      ["gold_ingot", "redstone", "gold_ingot"]
-    ],
-    "stats": { "length_per_craft": 6 },
-    "tags": ["transport", "rail", "redstone"],
-    "mineable_blocks": []
-  },
-
-  "detector-rail": {
-    "name": "Detector Rail",
-    "id": "minecraft:detector_rail",
-    "description": "Emits redstone when minecart passes over.",
-    "image": "/images/detector_rail.png",
-    "crafting_recipe": [
-      ["iron_ingot", null, "iron_ingot"],
-      ["iron_ingot", "stone_pressure_plate", "iron_ingot"],
-      ["iron_ingot", "redstone", "iron_ingot"]
-    ],
-    "stats": { "length_per_craft": 6 },
-    "tags": ["transport", "rail", "redstone"],
-    "mineable_blocks": []
-  },
-
-  "activator-rail": {
-    "name": "Activator Rail",
-    "id": "minecraft:activator_rail",
-    "description": "Triggers carts passing (ejects passengers, ignites TNT carts).",
-    "image": "/images/activator_rail.png",
-    "crafting_recipe": [
-      ["iron_ingot", null, "iron_ingot"],
-      ["iron_ingot", "redstone_torch", "iron_ingot"],
-      ["iron_ingot", null, "iron_ingot"]
-    ],
-    "stats": { "length_per_craft": 6 },
-    "tags": ["transport", "rail", "redstone"],
     "mineable_blocks": []
   },
 
@@ -3621,7 +3736,16 @@
     "image": "/images/netherite_ingot.png",
     "crafting_recipe": {
       "type": "shapeless",
-      "ingredients": ["ancient_debris", "ancient_debris", "ancient_debris", "ancient_debris", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot"]
+      "ingredients": [
+        "ancient_debris",
+        "ancient_debris",
+        "ancient_debris",
+        "ancient_debris",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot"
+      ]
     },
     "stats": {},
     "tags": ["material", "endgame"],
@@ -3739,7 +3863,10 @@
     "stats": { "length_sec": "≈ 2–3 min" },
     "tags": ["music", "disc", "loot"],
     "mineable_blocks": [],
-    "obtain": ["Dropped when a skeleton kills a creeper", "Dungeon/structure loot (rare)"]
+    "obtain": [
+      "Dropped when a skeleton kills a creeper",
+      "Dungeon/structure loot (rare)"
+    ]
   },
 
   "music-disc-cat": {
@@ -3917,7 +4044,17 @@
     "image": "/images/music_disc_5.png",
     "crafting_recipe": {
       "type": "shapeless",
-      "ingredients": ["disc_fragment_5","disc_fragment_5","disc_fragment_5","disc_fragment_5","disc_fragment_5","disc_fragment_5","disc_fragment_5","disc_fragment_5","disc_fragment_5"]
+      "ingredients": [
+        "disc_fragment_5",
+        "disc_fragment_5",
+        "disc_fragment_5",
+        "disc_fragment_5",
+        "disc_fragment_5",
+        "disc_fragment_5",
+        "disc_fragment_5",
+        "disc_fragment_5",
+        "disc_fragment_5"
+      ]
     },
     "stats": { "length_sec": "≈ 2–3 min" },
     "tags": ["music", "disc", "ancient-city"],
@@ -3935,16 +4072,6 @@
     "mineable_blocks": [],
     "obtain": ["Trial Chamber/structure loot (loot only)"]
   },
-  "oak-log": {
-    "name": "Oak Log",
-    "id": "minecraft:oak_log",
-    "description": "Basic log from oak trees. Can be stripped with an axe.",
-    "image": "/images/oak_log.png",
-    "crafting_recipe": null,
-    "stats": { "blast_resistance": 2, "hardness": 2 },
-    "tags": ["block", "wood", "building"],
-    "mineable_blocks": []
-  },
 
   "stripped-oak-log": {
     "name": "Stripped Oak Log",
@@ -3953,17 +4080,6 @@
     "image": "/images/stripped_oak_log.png",
     "crafting_recipe": null,
     "stats": { "blast_resistance": 2, "hardness": 2 },
-    "tags": ["block", "wood", "building"],
-    "mineable_blocks": []
-  },
-
-  "oak-planks": {
-    "name": "Oak Planks",
-    "id": "minecraft:oak_planks",
-    "description": "Versatile block crafted from oak logs.",
-    "image": "/images/oak_planks.png",
-    "crafting_recipe": { "type": "shapeless", "ingredients": ["oak_log"] },
-    "stats": { "blast_resistance": 3, "hardness": 2 },
     "tags": ["block", "wood", "building"],
     "mineable_blocks": []
   },
@@ -4058,32 +4174,6 @@
     "mineable_blocks": []
   },
 
-  "oak-button": {
-    "name": "Oak Button",
-    "id": "minecraft:oak_button",
-    "description": "Redstone input item; short pulse when pressed.",
-    "image": "/images/oak_button.png",
-    "crafting_recipe": { "type": "shapeless", "ingredients": ["oak_planks"] },
-    "stats": { "pulse_ticks": 15 },
-    "tags": ["block", "wood", "redstone", "button"],
-    "mineable_blocks": []
-  },
-
-  "oak-pressure-plate": {
-    "name": "Oak Pressure Plate",
-    "id": "minecraft:oak_pressure_plate",
-    "description": "Emits redstone when stepped on by entities.",
-    "image": "/images/oak_pressure_plate.png",
-    "crafting_recipe": [
-      ["oak_planks", "oak_planks", null],
-      [null, null, null],
-      [null, null, null]
-    ],
-    "stats": { "signal_strength": 15 },
-    "tags": ["block", "wood", "redstone", "pressure-plate"],
-    "mineable_blocks": []
-  },
-
   "oak-sign": {
     "name": "Oak Sign",
     "id": "minecraft:oak_sign",
@@ -4112,5 +4202,2812 @@
     "stats": { "text_lines": 4 },
     "tags": ["block", "wood", "decor"],
     "mineable_blocks": []
+  },
+  "spruce-log": {
+    "name": "Spruce Log",
+    "id": "minecraft:spruce_log",
+    "description": "Darker-toned log from spruce trees. Can be stripped with an axe.",
+    "image": "/images/spruce_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "stripped-spruce-log": {
+    "name": "Stripped Spruce Log",
+    "id": "minecraft:stripped_spruce_log",
+    "description": "Spruce log with bark removed using an axe.",
+    "image": "/images/stripped_spruce_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "spruce-planks": {
+    "name": "Spruce Planks",
+    "id": "minecraft:spruce_planks",
+    "description": "Versatile building block crafted from spruce logs.",
+    "image": "/images/spruce_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["spruce_log"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "spruce-stairs": {
+    "name": "Spruce Stairs",
+    "id": "minecraft:spruce_stairs",
+    "description": "Stairs variant of spruce planks.",
+    "image": "/images/spruce_stairs.png",
+    "crafting_recipe": [
+      ["spruce_planks", null, null],
+      ["spruce_planks", "spruce_planks", null],
+      ["spruce_planks", "spruce_planks", "spruce_planks"]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "spruce-slab": {
+    "name": "Spruce Slab",
+    "id": "minecraft:spruce_slab",
+    "description": "Half-block version of spruce planks.",
+    "image": "/images/spruce_slab.png",
+    "crafting_recipe": [
+      ["spruce_planks", "spruce_planks", "spruce_planks"],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "spruce-fence": {
+    "name": "Spruce Fence",
+    "id": "minecraft:spruce_fence",
+    "description": "Barrier crafted from planks and sticks (spruce variant).",
+    "image": "/images/spruce_fence.png",
+    "crafting_recipe": [
+      ["spruce_planks", "stick", "spruce_planks"],
+      ["spruce_planks", "stick", "spruce_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "fence"],
+    "mineable_blocks": []
+  },
+
+  "spruce-fence-gate": {
+    "name": "Spruce Fence Gate",
+    "id": "minecraft:spruce_fence_gate",
+    "description": "Fence opening block for spruce sets; toggled manually or by redstone.",
+    "image": "/images/spruce_fence_gate.png",
+    "crafting_recipe": [
+      ["stick", "spruce_planks", "stick"],
+      ["stick", "spruce_planks", "stick"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "fence"],
+    "mineable_blocks": []
+  },
+
+  "spruce-door": {
+    "name": "Spruce Door",
+    "id": "minecraft:spruce_door",
+    "description": "Two-block tall wooden door (spruce style).",
+    "image": "/images/spruce_door.png",
+    "crafting_recipe": [
+      ["spruce_planks", "spruce_planks", null],
+      ["spruce_planks", "spruce_planks", null],
+      ["spruce_planks", "spruce_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "spruce-trapdoor": {
+    "name": "Spruce Trapdoor",
+    "id": "minecraft:spruce_trapdoor",
+    "description": "Hatch variant for floors/ceilings (spruce style).",
+    "image": "/images/spruce_trapdoor.png",
+    "crafting_recipe": [
+      ["spruce_planks", "spruce_planks", "spruce_planks"],
+      ["spruce_planks", "spruce_planks", "spruce_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "spruce-button": {
+    "name": "Spruce Button",
+    "id": "minecraft:spruce_button",
+    "description": "Redstone input; emits a short pulse.",
+    "image": "/images/spruce_button.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["spruce_planks"]
+    },
+    "stats": { "pulse_ticks": 15 },
+    "tags": ["block", "wood", "redstone", "button"],
+    "mineable_blocks": []
+  },
+
+  "spruce-pressure-plate": {
+    "name": "Spruce Pressure Plate",
+    "id": "minecraft:spruce_pressure_plate",
+    "description": "Emits redstone when stepped on by entities.",
+    "image": "/images/spruce_pressure_plate.png",
+    "crafting_recipe": [
+      ["spruce_planks", "spruce_planks", null],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "stats": { "signal_strength": 15 },
+    "tags": ["block", "wood", "redstone", "pressure-plate"],
+    "mineable_blocks": []
+  },
+
+  "spruce-sign": {
+    "name": "Spruce Sign",
+    "id": "minecraft:spruce_sign",
+    "description": "Sign for text (spruce style). Dyable text colors.",
+    "image": "/images/spruce_sign.png",
+    "crafting_recipe": [
+      ["spruce_planks", "spruce_planks", "spruce_planks"],
+      ["spruce_planks", "spruce_planks", "spruce_planks"],
+      [null, "stick", null]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "spruce-hanging-sign": {
+    "name": "Spruce Hanging Sign",
+    "id": "minecraft:spruce_hanging_sign",
+    "description": "Hanging variant placed under blocks/chains.",
+    "image": "/images/spruce_hanging_sign.png",
+    "crafting_recipe": [
+      ["stripped_spruce_log", "stripped_spruce_log", "stripped_spruce_log"],
+      ["chain", "chain", "chain"],
+      ["stripped_spruce_log", "stripped_spruce_log", "stripped_spruce_log"]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "birch-log": {
+    "name": "Birch Log",
+    "id": "minecraft:birch_log",
+    "description": "Pale-toned log from birch trees. Can be stripped with an axe.",
+    "image": "/images/birch_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "stripped-birch-log": {
+    "name": "Stripped Birch Log",
+    "id": "minecraft:stripped_birch_log",
+    "description": "Birch log with bark removed using an axe.",
+    "image": "/images/stripped_birch_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "birch-planks": {
+    "name": "Birch Planks",
+    "id": "minecraft:birch_planks",
+    "description": "Versatile building block crafted from birch logs.",
+    "image": "/images/birch_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["birch_log"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "birch-stairs": {
+    "name": "Birch Stairs",
+    "id": "minecraft:birch_stairs",
+    "description": "Stairs variant of birch planks.",
+    "image": "/images/birch_stairs.png",
+    "crafting_recipe": [
+      ["birch_planks", null, null],
+      ["birch_planks", "birch_planks", null],
+      ["birch_planks", "birch_planks", "birch_planks"]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "birch-slab": {
+    "name": "Birch Slab",
+    "id": "minecraft:birch_slab",
+    "description": "Half-block version of birch planks.",
+    "image": "/images/birch_slab.png",
+    "crafting_recipe": [
+      ["birch_planks", "birch_planks", "birch_planks"],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "birch-fence": {
+    "name": "Birch Fence",
+    "id": "minecraft:birch_fence",
+    "description": "Barrier crafted from planks and sticks (birch variant).",
+    "image": "/images/birch_fence.png",
+    "crafting_recipe": [
+      ["birch_planks", "stick", "birch_planks"],
+      ["birch_planks", "stick", "birch_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "fence"],
+    "mineable_blocks": []
+  },
+
+  "birch-fence-gate": {
+    "name": "Birch Fence Gate",
+    "id": "minecraft:birch_fence_gate",
+    "description": "Fence opening block for birch sets; toggled manually or by redstone.",
+    "image": "/images/birch_fence_gate.png",
+    "crafting_recipe": [
+      ["stick", "birch_planks", "stick"],
+      ["stick", "birch_planks", "stick"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "fence"],
+    "mineable_blocks": []
+  },
+
+  "birch-door": {
+    "name": "Birch Door",
+    "id": "minecraft:birch_door",
+    "description": "Two-block tall wooden door (birch style).",
+    "image": "/images/birch_door.png",
+    "crafting_recipe": [
+      ["birch_planks", "birch_planks", null],
+      ["birch_planks", "birch_planks", null],
+      ["birch_planks", "birch_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "birch-trapdoor": {
+    "name": "Birch Trapdoor",
+    "id": "minecraft:birch_trapdoor",
+    "description": "Hatch variant for floors/ceilings (birch style).",
+    "image": "/images/birch_trapdoor.png",
+    "crafting_recipe": [
+      ["birch_planks", "birch_planks", "birch_planks"],
+      ["birch_planks", "birch_planks", "birch_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "birch-button": {
+    "name": "Birch Button",
+    "id": "minecraft:birch_button",
+    "description": "Redstone input; emits a short pulse.",
+    "image": "/images/birch_button.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["birch_planks"] },
+    "stats": { "pulse_ticks": 15 },
+    "tags": ["block", "wood", "redstone", "button"],
+    "mineable_blocks": []
+  },
+
+  "birch-pressure-plate": {
+    "name": "Birch Pressure Plate",
+    "id": "minecraft:birch_pressure_plate",
+    "description": "Emits redstone when stepped on by entities.",
+    "image": "/images/birch_pressure_plate.png",
+    "crafting_recipe": [
+      ["birch_planks", "birch_planks", null],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "stats": { "signal_strength": 15 },
+    "tags": ["block", "wood", "redstone", "pressure-plate"],
+    "mineable_blocks": []
+  },
+
+  "birch-sign": {
+    "name": "Birch Sign",
+    "id": "minecraft:birch_sign",
+    "description": "Sign for text (birch style). Dyable text colors.",
+    "image": "/images/birch_sign.png",
+    "crafting_recipe": [
+      ["birch_planks", "birch_planks", "birch_planks"],
+      ["birch_planks", "birch_planks", "birch_planks"],
+      [null, "stick", null]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "birch-hanging-sign": {
+    "name": "Birch Hanging Sign",
+    "id": "minecraft:birch_hanging_sign",
+    "description": "Hanging variant placed under blocks/chains.",
+    "image": "/images/birch_hanging_sign.png",
+    "crafting_recipe": [
+      ["stripped_birch_log", "stripped_birch_log", "stripped_birch_log"],
+      ["chain", "chain", "chain"],
+      ["stripped_birch_log", "stripped_birch_log", "stripped_birch_log"]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+  "jungle-log": {
+    "name": "Jungle Log",
+    "id": "minecraft:jungle_log",
+    "description": "Log from jungle trees. Can be stripped with an axe.",
+    "image": "/images/jungle_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "stripped-jungle-log": {
+    "name": "Stripped Jungle Log",
+    "id": "minecraft:stripped_jungle_log",
+    "description": "Jungle log with bark removed.",
+    "image": "/images/stripped_jungle_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "jungle-planks": {
+    "name": "Jungle Planks",
+    "id": "minecraft:jungle_planks",
+    "description": "Building block crafted from jungle logs.",
+    "image": "/images/jungle_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["jungle_log"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "jungle-stairs": {
+    "name": "Jungle Stairs",
+    "id": "minecraft:jungle_stairs",
+    "description": "Stairs variant of jungle planks.",
+    "image": "/images/jungle_stairs.png",
+    "crafting_recipe": [
+      ["jungle_planks", null, null],
+      ["jungle_planks", "jungle_planks", null],
+      ["jungle_planks", "jungle_planks", "jungle_planks"]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "jungle-slab": {
+    "name": "Jungle Slab",
+    "id": "minecraft:jungle_slab",
+    "description": "Half-block variant of jungle planks.",
+    "image": "/images/jungle_slab.png",
+    "crafting_recipe": [
+      ["jungle_planks", "jungle_planks", "jungle_planks"],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "jungle-fence": {
+    "name": "Jungle Fence",
+    "id": "minecraft:jungle_fence",
+    "description": "Barrier block crafted from jungle planks and sticks.",
+    "image": "/images/jungle_fence.png",
+    "crafting_recipe": [
+      ["jungle_planks", "stick", "jungle_planks"],
+      ["jungle_planks", "stick", "jungle_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "fence"],
+    "mineable_blocks": []
+  },
+
+  "jungle-fence-gate": {
+    "name": "Jungle Fence Gate",
+    "id": "minecraft:jungle_fence_gate",
+    "description": "Gate crafted with sticks and jungle planks.",
+    "image": "/images/jungle_fence_gate.png",
+    "crafting_recipe": [
+      ["stick", "jungle_planks", "stick"],
+      ["stick", "jungle_planks", "stick"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "fence"],
+    "mineable_blocks": []
+  },
+
+  "jungle-door": {
+    "name": "Jungle Door",
+    "id": "minecraft:jungle_door",
+    "description": "Tall wooden door (jungle style).",
+    "image": "/images/jungle_door.png",
+    "crafting_recipe": [
+      ["jungle_planks", "jungle_planks", null],
+      ["jungle_planks", "jungle_planks", null],
+      ["jungle_planks", "jungle_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "jungle-trapdoor": {
+    "name": "Jungle Trapdoor",
+    "id": "minecraft:jungle_trapdoor",
+    "description": "Wooden hatch (jungle style).",
+    "image": "/images/jungle_trapdoor.png",
+    "crafting_recipe": [
+      ["jungle_planks", "jungle_planks", "jungle_planks"],
+      ["jungle_planks", "jungle_planks", "jungle_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "jungle-sign": {
+    "name": "Jungle Sign",
+    "id": "minecraft:jungle_sign",
+    "description": "Wooden sign for text (jungle variant).",
+    "image": "/images/jungle_sign.png",
+    "crafting_recipe": [
+      ["jungle_planks", "jungle_planks", "jungle_planks"],
+      ["jungle_planks", "jungle_planks", "jungle_planks"],
+      [null, "stick", null]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "jungle-hanging-sign": {
+    "name": "Jungle Hanging Sign",
+    "id": "minecraft:jungle_hanging_sign",
+    "description": "Hanging sign crafted from stripped jungle logs and chains.",
+    "image": "/images/jungle_hanging_sign.png",
+    "crafting_recipe": [
+      ["stripped_jungle_log", "stripped_jungle_log", "stripped_jungle_log"],
+      ["chain", "chain", "chain"],
+      ["stripped_jungle_log", "stripped_jungle_log", "stripped_jungle_log"]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "acacia-log": {
+    "name": "Acacia Log",
+    "id": "minecraft:acacia_log",
+    "description": "Orange-toned log from acacia trees.",
+    "image": "/images/acacia_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "stripped-acacia-log": {
+    "name": "Stripped Acacia Log",
+    "id": "minecraft:stripped_acacia_log",
+    "description": "Acacia log with bark removed.",
+    "image": "/images/stripped_acacia_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "acacia-planks": {
+    "name": "Acacia Planks",
+    "id": "minecraft:acacia_planks",
+    "description": "Building block crafted from acacia logs.",
+    "image": "/images/acacia_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["acacia_log"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "acacia-stairs": {
+    "name": "Acacia Stairs",
+    "id": "minecraft:acacia_stairs",
+    "description": "Stairs variant of acacia planks.",
+    "image": "/images/acacia_stairs.png",
+    "crafting_recipe": [
+      ["acacia_planks", null, null],
+      ["acacia_planks", "acacia_planks", null],
+      ["acacia_planks", "acacia_planks", "acacia_planks"]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "acacia-slab": {
+    "name": "Acacia Slab",
+    "id": "minecraft:acacia_slab",
+    "description": "Half-block variant of acacia planks.",
+    "image": "/images/acacia_slab.png",
+    "crafting_recipe": [
+      ["acacia_planks", "acacia_planks", "acacia_planks"],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "acacia-fence": {
+    "name": "Acacia Fence",
+    "id": "minecraft:acacia_fence",
+    "description": "Barrier block crafted from acacia planks and sticks.",
+    "image": "/images/acacia_fence.png",
+    "crafting_recipe": [
+      ["acacia_planks", "stick", "acacia_planks"],
+      ["acacia_planks", "stick", "acacia_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "fence"],
+    "mineable_blocks": []
+  },
+
+  "acacia-fence-gate": {
+    "name": "Acacia Fence Gate",
+    "id": "minecraft:acacia_fence_gate",
+    "description": "Gate crafted with sticks and acacia planks.",
+    "image": "/images/acacia_fence_gate.png",
+    "crafting_recipe": [
+      ["stick", "acacia_planks", "stick"],
+      ["stick", "acacia_planks", "stick"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "fence"],
+    "mineable_blocks": []
+  },
+
+  "acacia-door": {
+    "name": "Acacia Door",
+    "id": "minecraft:acacia_door",
+    "description": "Tall wooden door (acacia style).",
+    "image": "/images/acacia_door.png",
+    "crafting_recipe": [
+      ["acacia_planks", "acacia_planks", null],
+      ["acacia_planks", "acacia_planks", null],
+      ["acacia_planks", "acacia_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "acacia-trapdoor": {
+    "name": "Acacia Trapdoor",
+    "id": "minecraft:acacia_trapdoor",
+    "description": "Wooden hatch (acacia style).",
+    "image": "/images/acacia_trapdoor.png",
+    "crafting_recipe": [
+      ["acacia_planks", "acacia_planks", "acacia_planks"],
+      ["acacia_planks", "acacia_planks", "acacia_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "acacia-sign": {
+    "name": "Acacia Sign",
+    "id": "minecraft:acacia_sign",
+    "description": "Wooden sign for text (acacia variant).",
+    "image": "/images/acacia_sign.png",
+    "crafting_recipe": [
+      ["acacia_planks", "acacia_planks", "acacia_planks"],
+      ["acacia_planks", "acacia_planks", "acacia_planks"],
+      [null, "stick", null]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "acacia-hanging-sign": {
+    "name": "Acacia Hanging Sign",
+    "id": "minecraft:acacia_hanging_sign",
+    "description": "Hanging sign crafted from stripped acacia logs and chains.",
+    "image": "/images/acacia_hanging_sign.png",
+    "crafting_recipe": [
+      ["stripped_acacia_log", "stripped_acacia_log", "stripped_acacia_log"],
+      ["chain", "chain", "chain"],
+      ["stripped_acacia_log", "stripped_acacia_log", "stripped_acacia_log"]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+  "dark-oak-log": {
+    "name": "Dark Oak Log",
+    "id": "minecraft:dark_oak_log",
+    "description": "Thick dark log from dark oak trees. Requires 2×2 saplings to grow.",
+    "image": "/images/dark_oak_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "stripped-dark-oak-log": {
+    "name": "Stripped Dark Oak Log",
+    "id": "minecraft:stripped_dark_oak_log",
+    "description": "Dark oak log with bark removed.",
+    "image": "/images/stripped_dark_oak_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "dark-oak-planks": {
+    "name": "Dark Oak Planks",
+    "id": "minecraft:dark_oak_planks",
+    "description": "Building block crafted from dark oak logs.",
+    "image": "/images/dark_oak_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["dark_oak_log"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "dark-oak-door": {
+    "name": "Dark Oak Door",
+    "id": "minecraft:dark_oak_door",
+    "description": "Two-block tall door in dark oak style.",
+    "image": "/images/dark_oak_door.png",
+    "crafting_recipe": [
+      ["dark_oak_planks", "dark_oak_planks", null],
+      ["dark_oak_planks", "dark_oak_planks", null],
+      ["dark_oak_planks", "dark_oak_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "dark-oak-trapdoor": {
+    "name": "Dark Oak Trapdoor",
+    "id": "minecraft:dark_oak_trapdoor",
+    "description": "Hatch in dark oak style.",
+    "image": "/images/dark_oak_trapdoor.png",
+    "crafting_recipe": [
+      ["dark_oak_planks", "dark_oak_planks", "dark_oak_planks"],
+      ["dark_oak_planks", "dark_oak_planks", "dark_oak_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "dark-oak-sign": {
+    "name": "Dark Oak Sign",
+    "id": "minecraft:dark_oak_sign",
+    "description": "Wooden sign variant (dark oak).",
+    "image": "/images/dark_oak_sign.png",
+    "crafting_recipe": [
+      ["dark_oak_planks", "dark_oak_planks", "dark_oak_planks"],
+      ["dark_oak_planks", "dark_oak_planks", "dark_oak_planks"],
+      [null, "stick", null]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "mangrove-log": {
+    "name": "Mangrove Log",
+    "id": "minecraft:mangrove_log",
+    "description": "Red-toned log from mangrove trees; grows from propagules.",
+    "image": "/images/mangrove_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "stripped-mangrove-log": {
+    "name": "Stripped Mangrove Log",
+    "id": "minecraft:stripped_mangrove_log",
+    "description": "Mangrove log with bark removed.",
+    "image": "/images/stripped_mangrove_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "mangrove-planks": {
+    "name": "Mangrove Planks",
+    "id": "minecraft:mangrove_planks",
+    "description": "Building block crafted from mangrove logs.",
+    "image": "/images/mangrove_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["mangrove_log"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "mangrove-door": {
+    "name": "Mangrove Door",
+    "id": "minecraft:mangrove_door",
+    "description": "Wooden door (mangrove style).",
+    "image": "/images/mangrove_door.png",
+    "crafting_recipe": [
+      ["mangrove_planks", "mangrove_planks", null],
+      ["mangrove_planks", "mangrove_planks", null],
+      ["mangrove_planks", "mangrove_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "mangrove-trapdoor": {
+    "name": "Mangrove Trapdoor",
+    "id": "minecraft:mangrove_trapdoor",
+    "description": "Hatch variant in mangrove style.",
+    "image": "/images/mangrove_trapdoor.png",
+    "crafting_recipe": [
+      ["mangrove_planks", "mangrove_planks", "mangrove_planks"],
+      ["mangrove_planks", "mangrove_planks", "mangrove_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "mangrove-sign": {
+    "name": "Mangrove Sign",
+    "id": "minecraft:mangrove_sign",
+    "description": "Sign for text (mangrove variant).",
+    "image": "/images/mangrove_sign.png",
+    "crafting_recipe": [
+      ["mangrove_planks", "mangrove_planks", "mangrove_planks"],
+      ["mangrove_planks", "mangrove_planks", "mangrove_planks"],
+      [null, "stick", null]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "cherry-log": {
+    "name": "Cherry Log",
+    "id": "minecraft:cherry_log",
+    "description": "Pink-hued log from cherry grove biome.",
+    "image": "/images/cherry_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "stripped-cherry-log": {
+    "name": "Stripped Cherry Log",
+    "id": "minecraft:stripped_cherry_log",
+    "description": "Cherry log with bark removed.",
+    "image": "/images/stripped_cherry_log.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "cherry-planks": {
+    "name": "Cherry Planks",
+    "id": "minecraft:cherry_planks",
+    "description": "Building block crafted from cherry logs.",
+    "image": "/images/cherry_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["cherry_log"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "cherry-door": {
+    "name": "Cherry Door",
+    "id": "minecraft:cherry_door",
+    "description": "Stylized door from cherry planks.",
+    "image": "/images/cherry_door.png",
+    "crafting_recipe": [
+      ["cherry_planks", "cherry_planks", null],
+      ["cherry_planks", "cherry_planks", null],
+      ["cherry_planks", "cherry_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "cherry-trapdoor": {
+    "name": "Cherry Trapdoor",
+    "id": "minecraft:cherry_trapdoor",
+    "description": "Trapdoor variant in cherry style.",
+    "image": "/images/cherry_trapdoor.png",
+    "crafting_recipe": [
+      ["cherry_planks", "cherry_planks", "cherry_planks"],
+      ["cherry_planks", "cherry_planks", "cherry_planks"],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "door"],
+    "mineable_blocks": []
+  },
+
+  "cherry-sign": {
+    "name": "Cherry Sign",
+    "id": "minecraft:cherry_sign",
+    "description": "Pink-styled wooden sign.",
+    "image": "/images/cherry_sign.png",
+    "crafting_recipe": [
+      ["cherry_planks", "cherry_planks", "cherry_planks"],
+      ["cherry_planks", "cherry_planks", "cherry_planks"],
+      [null, "stick", null]
+    ],
+    "stats": { "text_lines": 4 },
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+  "bamboo-planks": {
+    "name": "Bamboo Planks",
+    "id": "minecraft:bamboo_planks",
+    "description": "Crafted from bamboo. Used in bamboo wood set.",
+    "image": "/images/bamboo_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["bamboo_block"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "wood", "building"],
+    "mineable_blocks": []
+  },
+
+  "bamboo-block": {
+    "name": "Block of Bamboo",
+    "id": "minecraft:bamboo_block",
+    "description": "Compressed bamboo block. Base for planks.",
+    "image": "/images/bamboo_block.png",
+    "crafting_recipe": [
+      ["bamboo", "bamboo", "bamboo"],
+      ["bamboo", "bamboo", "bamboo"],
+      ["bamboo", "bamboo", "bamboo"]
+    ],
+    "stats": {},
+    "tags": ["block", "storage", "wood"],
+    "mineable_blocks": []
+  },
+
+  "bamboo-mosaic": {
+    "name": "Bamboo Mosaic",
+    "id": "minecraft:bamboo_mosaic",
+    "description": "Unique decorative block in bamboo family.",
+    "image": "/images/bamboo_mosaic.png",
+    "crafting_recipe": [
+      ["bamboo_slab", "bamboo_slab", null],
+      [null, null, null],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "decor"],
+    "mineable_blocks": []
+  },
+
+  "bamboo-raft": {
+    "name": "Bamboo Raft",
+    "id": "minecraft:bamboo_raft",
+    "description": "Boat-equivalent made from bamboo planks.",
+    "image": "/images/bamboo_raft.png",
+    "crafting_recipe": [
+      ["bamboo_planks", null, "bamboo_planks"],
+      ["bamboo_planks", "bamboo_planks", "bamboo_planks"],
+      [null, null, null]
+    ],
+    "stats": { "capacity": 2 },
+    "tags": ["transport", "raft", "bamboo"],
+    "mineable_blocks": []
+  },
+
+  "bamboo-raft-chest": {
+    "name": "Bamboo Raft with Chest",
+    "id": "minecraft:bamboo_chest_raft",
+    "description": "Storage variant of the bamboo raft.",
+    "image": "/images/bamboo_chest_raft.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["bamboo_raft", "chest"]
+    },
+    "stats": { "capacity": "1 rider + chest" },
+    "tags": ["transport", "raft", "storage"],
+    "mineable_blocks": []
+  },
+
+  "crimson-stem": {
+    "name": "Crimson Stem",
+    "id": "minecraft:crimson_stem",
+    "description": "Nether wood-like block from crimson fungi.",
+    "image": "/images/crimson_stem.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "nether", "wood"],
+    "mineable_blocks": []
+  },
+
+  "stripped-crimson-stem": {
+    "name": "Stripped Crimson Stem",
+    "id": "minecraft:stripped_crimson_stem",
+    "description": "Crimson stem with bark removed.",
+    "image": "/images/stripped_crimson_stem.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "nether", "wood"],
+    "mineable_blocks": []
+  },
+
+  "crimson-planks": {
+    "name": "Crimson Planks",
+    "id": "minecraft:crimson_planks",
+    "description": "Building block crafted from crimson stems.",
+    "image": "/images/crimson_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["crimson_stem"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "nether", "wood"],
+    "mineable_blocks": []
+  },
+
+  "crimson-door": {
+    "name": "Crimson Door",
+    "id": "minecraft:crimson_door",
+    "description": "Wooden-style door (crimson theme).",
+    "image": "/images/crimson_door.png",
+    "crafting_recipe": [
+      ["crimson_planks", "crimson_planks", null],
+      ["crimson_planks", "crimson_planks", null],
+      ["crimson_planks", "crimson_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "nether", "door"],
+    "mineable_blocks": []
+  },
+
+  "warped-stem": {
+    "name": "Warped Stem",
+    "id": "minecraft:warped_stem",
+    "description": "Nether wood-like block from warped fungi.",
+    "image": "/images/warped_stem.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "nether", "wood"],
+    "mineable_blocks": []
+  },
+
+  "stripped-warped-stem": {
+    "name": "Stripped Warped Stem",
+    "id": "minecraft:stripped_warped_stem",
+    "description": "Warped stem with bark removed.",
+    "image": "/images/stripped_warped_stem.png",
+    "crafting_recipe": null,
+    "stats": { "blast_resistance": 2, "hardness": 2 },
+    "tags": ["block", "nether", "wood"],
+    "mineable_blocks": []
+  },
+
+  "warped-planks": {
+    "name": "Warped Planks",
+    "id": "minecraft:warped_planks",
+    "description": "Building block crafted from warped stems.",
+    "image": "/images/warped_planks.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["warped_stem"] },
+    "stats": { "blast_resistance": 3, "hardness": 2 },
+    "tags": ["block", "nether", "wood"],
+    "mineable_blocks": []
+  },
+
+  "warped-door": {
+    "name": "Warped Door",
+    "id": "minecraft:warped_door",
+    "description": "Stylized warped wood door (Nether theme).",
+    "image": "/images/warped_door.png",
+    "crafting_recipe": [
+      ["warped_planks", "warped_planks", null],
+      ["warped_planks", "warped_planks", null],
+      ["warped_planks", "warped_planks", null]
+    ],
+    "stats": {},
+    "tags": ["block", "wood", "nether", "door"],
+    "mineable_blocks": []
+  },
+  "white-dye": {
+    "name": "White Dye",
+    "id": "minecraft:white_dye",
+    "description": "Used for coloring items white.",
+    "image": "/images/white_dye.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["bone_meal"] },
+    "stats": {},
+    "tags": ["dye", "color", "crafting"],
+    "sources": ["Bone Meal", "Lily of the Valley"]
+  },
+
+  "light-gray-dye": {
+    "name": "Light Gray Dye",
+    "id": "minecraft:light_gray_dye",
+    "description": "Used for coloring items light gray.",
+    "image": "/images/light_gray_dye.png",
+    "crafting_recipe": { "type": "shapeless", "ingredients": ["azure_bluet"] },
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": [
+      "Azure Bluet",
+      "White Tulip",
+      "Oxeye Daisy",
+      "Mixed from white + black/gray dyes"
+    ]
+  },
+
+  "gray-dye": {
+    "name": "Gray Dye",
+    "id": "minecraft:gray_dye",
+    "description": "Used for coloring items gray.",
+    "image": "/images/gray_dye.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["black_dye", "white_dye"]
+    },
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Ink Sac", "Wither Rose"]
+  },
+
+  "black-dye": {
+    "name": "Black Dye",
+    "id": "minecraft:black_dye",
+    "description": "Used for coloring items black.",
+    "image": "/images/black_dye.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Ink Sac", "Wither Rose"]
+  },
+
+  "red-dye": {
+    "name": "Red Dye",
+    "id": "minecraft:red_dye",
+    "description": "Used for coloring items red.",
+    "image": "/images/red_dye.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Poppy", "Rose Bush", "Red Tulip", "Beetroot"]
+  },
+
+  "orange-dye": {
+    "name": "Orange Dye",
+    "id": "minecraft:orange_dye",
+    "description": "Used for coloring items orange.",
+    "image": "/images/orange_dye.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["red_dye", "yellow_dye"]
+    },
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Orange Tulip"]
+  },
+
+  "yellow-dye": {
+    "name": "Yellow Dye",
+    "id": "minecraft:yellow_dye",
+    "description": "Used for coloring items yellow.",
+    "image": "/images/yellow_dye.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Dandelion", "Sunflower"]
+  },
+
+  "lime-dye": {
+    "name": "Lime Dye",
+    "id": "minecraft:lime_dye",
+    "description": "Used for coloring items lime.",
+    "image": "/images/lime_dye.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["green_dye", "white_dye"]
+    },
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Smelted sea pickles (Bedrock)", "Crafted mix"]
+  },
+
+  "green-dye": {
+    "name": "Green Dye",
+    "id": "minecraft:green_dye",
+    "description": "Used for coloring items green.",
+    "image": "/images/green_dye.png",
+    "crafting_recipe": { "type": "smelting", "input": "cactus" },
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Cactus (smelted)"]
+  },
+
+  "cyan-dye": {
+    "name": "Cyan Dye",
+    "id": "minecraft:cyan_dye",
+    "description": "Used for coloring items cyan.",
+    "image": "/images/cyan_dye.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["blue_dye", "green_dye"]
+    },
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Mixed dyes only"]
+  },
+
+  "light-blue-dye": {
+    "name": "Light Blue Dye",
+    "id": "minecraft:light_blue_dye",
+    "description": "Used for coloring items light blue.",
+    "image": "/images/light_blue_dye.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Blue Orchid", "Mixed: Blue Dye + White Dye"]
+  },
+
+  "blue-dye": {
+    "name": "Blue Dye",
+    "id": "minecraft:blue_dye",
+    "description": "Used for coloring items blue.",
+    "image": "/images/blue_dye.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Lapis Lazuli", "Cornflower"]
+  },
+
+  "purple-dye": {
+    "name": "Purple Dye",
+    "id": "minecraft:purple_dye",
+    "description": "Used for coloring items purple.",
+    "image": "/images/purple_dye.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["red_dye", "blue_dye"]
+    },
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Mixed dyes only"]
+  },
+
+  "magenta-dye": {
+    "name": "Magenta Dye",
+    "id": "minecraft:magenta_dye",
+    "description": "Used for coloring items magenta.",
+    "image": "/images/magenta_dye.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Allium", "Lilac", "Pink + Purple dye mix"]
+  },
+
+  "pink-dye": {
+    "name": "Pink Dye",
+    "id": "minecraft:pink_dye",
+    "description": "Used for coloring items pink.",
+    "image": "/images/pink_dye.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["red_dye", "white_dye"]
+    },
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Pink Tulip", "Peony", "Mixed dyes"]
+  },
+
+  "brown-dye": {
+    "name": "Brown Dye",
+    "id": "minecraft:brown_dye",
+    "description": "Used for coloring items brown.",
+    "image": "/images/brown_dye.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["dye", "color"],
+    "sources": ["Cocoa Beans"]
+  },
+  "villager": {
+    "name": "Villager",
+    "id": "minecraft:villager",
+    "description": "Passive mob found in villages. Trades items based on profession.",
+    "image": "/images/villager.png",
+    "crafting_recipe": null,
+    "stats": {
+      "health": 20,
+      "spawn": "Villages",
+      "breeding": "Feed bread, carrots, potatoes, or beetroot"
+    },
+    "tags": ["mob", "passive", "trader", "overworld"],
+    "mineable_blocks": [],
+    "professions": [
+      "Armorer",
+      "Butcher",
+      "Cartographer",
+      "Cleric",
+      "Farmer",
+      "Fisherman",
+      "Fletcher",
+      "Leatherworker",
+      "Librarian",
+      "Mason",
+      "Shepherd",
+      "Toolsmith",
+      "Weaponsmith",
+      "Unemployed",
+      "Nitwit"
+    ]
+  },
+
+  "armorer": {
+    "name": "Armorer Villager",
+    "id": "minecraft:armorer",
+    "description": "Trades armor, chainmail, and enchanted gear.",
+    "image": "/images/armorer.png",
+    "crafting_recipe": null,
+    "stats": { "job_block": "blast_furnace" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": [
+      "Coal → Emerald",
+      "Emerald → Armor (iron/diamond, enchanted)"
+    ]
+  },
+
+  "butcher": {
+    "name": "Butcher Villager",
+    "id": "minecraft:butcher",
+    "description": "Trades cooked food and raw meat.",
+    "image": "/images/butcher.png",
+    "stats": { "job_block": "smoker" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": ["Raw meat → Emerald", "Emerald → Cooked food"]
+  },
+
+  "cartographer": {
+    "name": "Cartographer Villager",
+    "id": "minecraft:cartographer",
+    "description": "Trades maps and banners. Provides explorer maps.",
+    "image": "/images/cartographer.png",
+    "stats": { "job_block": "cartography_table" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": [
+      "Paper → Emerald",
+      "Emerald → Woodland/Ocean Explorer Map"
+    ]
+  },
+
+  "cleric": {
+    "name": "Cleric Villager",
+    "id": "minecraft:cleric",
+    "description": "Trades magic-related items, like ender pearls, glowstone, redstone.",
+    "image": "/images/cleric.png",
+    "stats": { "job_block": "brewing_stand" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": [
+      "Rotten Flesh → Emerald",
+      "Emerald → Ender Pearls, Glowstone"
+    ]
+  },
+
+  "farmer": {
+    "name": "Farmer Villager",
+    "id": "minecraft:farmer",
+    "description": "Trades food and farming items. Farms crops when employed.",
+    "image": "/images/farmer.png",
+    "stats": { "job_block": "composter" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": [
+      "Wheat/Carrots/Potatoes → Emerald",
+      "Emerald → Bread, Golden Carrots, Pumpkin Pie"
+    ]
+  },
+
+  "fisherman": {
+    "name": "Fisherman Villager",
+    "id": "minecraft:fisherman",
+    "description": "Trades fish, campfires, and fishing-related gear.",
+    "image": "/images/fisherman.png",
+    "stats": { "job_block": "barrel" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": ["Coal → Emerald", "Emerald → Fish, Fishing Rod"]
+  },
+
+  "fletcher": {
+    "name": "Fletcher Villager",
+    "id": "minecraft:fletcher",
+    "description": "Trades bows, arrows, and tipped arrows.",
+    "image": "/images/fletcher.png",
+    "stats": { "job_block": "fletching_table" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": ["Sticks → Emerald", "Emerald → Bow, Tipped Arrows"]
+  },
+
+  "leatherworker": {
+    "name": "Leatherworker Villager",
+    "id": "minecraft:leatherworker",
+    "description": "Trades leather armor, saddles, and item frames.",
+    "image": "/images/leatherworker.png",
+    "stats": { "job_block": "cauldron" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": ["Leather → Emerald", "Emerald → Saddle, Leather Armor"]
+  },
+
+  "librarian": {
+    "name": "Librarian Villager",
+    "id": "minecraft:librarian",
+    "description": "Trades enchanted books, name tags, and bookshelves.",
+    "image": "/images/librarian.png",
+    "stats": { "job_block": "lectern" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": [
+      "Paper/Book → Emerald",
+      "Emerald → Enchanted Books, Name Tag"
+    ]
+  },
+
+  "mason": {
+    "name": "Mason Villager",
+    "id": "minecraft:mason",
+    "description": "Trades stone, bricks, and decorative blocks.",
+    "image": "/images/mason.png",
+    "stats": { "job_block": "stonecutter" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": ["Clay → Emerald", "Emerald → Bricks, Terracotta, Quartz"]
+  },
+
+  "shepherd": {
+    "name": "Shepherd Villager",
+    "id": "minecraft:shepherd",
+    "description": "Trades wool, dyes, banners, and shears.",
+    "image": "/images/shepherd.png",
+    "stats": { "job_block": "loom" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": ["Wool → Emerald", "Emerald → Banner Patterns, Beds"]
+  },
+
+  "toolsmith": {
+    "name": "Toolsmith Villager",
+    "id": "minecraft:toolsmith",
+    "description": "Trades tools, including diamond and enchanted varieties.",
+    "image": "/images/toolsmith.png",
+    "stats": { "job_block": "smithing_table" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": ["Coal/Iron → Emerald", "Emerald → Diamond Tools"]
+  },
+
+  "weaponsmith": {
+    "name": "Weaponsmith Villager",
+    "id": "minecraft:weaponsmith",
+    "description": "Trades weapons like swords and axes.",
+    "image": "/images/weaponsmith.png",
+    "stats": { "job_block": "grindstone" },
+    "tags": ["villager", "profession", "trader"],
+    "trade_examples": ["Coal/Iron → Emerald", "Emerald → Enchanted Sword/Axe"]
+  },
+
+  "nitwit": {
+    "name": "Nitwit Villager",
+    "id": "minecraft:nitwit",
+    "description": "Green-robed villager with no trades. Cannot take jobs.",
+    "image": "/images/nitwit.png",
+    "stats": { "job_block": null },
+    "tags": ["villager", "passive", "non-trader"],
+    "trade_examples": []
+  },
+  "ender-pearl": {
+    "name": "Ender Pearl",
+    "id": "minecraft:ender_pearl",
+    "description": "Thrown to teleport to its landing spot (deals small fall damage).",
+    "image": "/images/ender_pearl.png",
+    "crafting_recipe": null,
+    "stats": {
+      "teleport_range": "line-of-sight",
+      "damage_on_use": "2.5 hearts"
+    },
+    "tags": ["mob-loot", "utility", "end"],
+    "mineable_blocks": []
+  },
+
+  "blaze-rod": {
+    "name": "Blaze Rod",
+    "id": "minecraft:blaze_rod",
+    "description": "Core Nether loot; fuel for brewing stands and crafted into Blaze Powder.",
+    "image": "/images/blaze_rod.png",
+    "crafting_recipe": null,
+    "stats": { "fuel": true },
+    "tags": ["mob-loot", "nether", "brewing"],
+    "mineable_blocks": []
+  },
+
+  "slimeball": {
+    "name": "Slimeball",
+    "id": "minecraft:slime_ball",
+    "description": "Dropped by small slimes; used in leads and sticky pistons.",
+    "image": "/images/slime_ball.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "string": {
+    "name": "String",
+    "id": "minecraft:string",
+    "description": "Dropped by spiders; used for bows, wool, fishing rods, tripwires.",
+    "image": "/images/string.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "rotten-flesh": {
+    "name": "Rotten Flesh",
+    "id": "minecraft:rotten_flesh",
+    "description": "Common zombie drop; edible with high hunger/saturation penalty; cleric trade.",
+    "image": "/images/rotten_flesh.png",
+    "crafting_recipe": null,
+    "stats": { "hunger": 4, "saturation": 0.8, "effect": "Hunger (80%)" },
+    "tags": ["mob-loot", "food", "villager-trade"],
+    "mineable_blocks": []
+  },
+
+  "bone": {
+    "name": "Bone",
+    "id": "minecraft:bone",
+    "description": "Skeleton drop; craft to bone meal or used to tame wolves.",
+    "image": "/images/bone.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "crafting", "taming"],
+    "mineable_blocks": []
+  },
+
+  "arrow": {
+    "name": "Arrow",
+    "id": "minecraft:arrow",
+    "description": "Ammo for bows; dropped by skeletons or crafted.",
+    "image": "/images/arrow.png",
+    "crafting_recipe": [
+      [null, "flint", null],
+      [null, "stick", null],
+      [null, "feather", null]
+    ],
+    "stats": {},
+    "tags": ["ammo", "mob-loot", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "gunpowder": {
+    "name": "Gunpowder",
+    "id": "minecraft:gunpowder",
+    "description": "Creeper/ghast drop; used in TNT and splash potions/fireworks.",
+    "image": "/images/gunpowder.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "crafting", "brewing"],
+    "mineable_blocks": []
+  },
+
+  "feather": {
+    "name": "Feather",
+    "id": "minecraft:feather",
+    "description": "Chicken drop; used for arrows and books/quills.",
+    "image": "/images/feather.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "leather": {
+    "name": "Leather",
+    "id": "minecraft:leather",
+    "description": "Cow/horse drop; used for books, item frames, leather armor.",
+    "image": "/images/leather.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "rabbit-hide": {
+    "name": "Rabbit Hide",
+    "id": "minecraft:rabbit_hide",
+    "description": "Dropped by rabbits; craft 4 into 1 leather.",
+    "image": "/images/rabbit_hide.png",
+    "crafting_recipe": [
+      ["rabbit_hide", "rabbit_hide", null],
+      ["rabbit_hide", "rabbit_hide", null],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["mob-loot", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "ink-sac": {
+    "name": "Ink Sac",
+    "id": "minecraft:ink_sac",
+    "description": "Squid drop; base for black dye and book & quill.",
+    "image": "/images/ink_sac.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "dye"],
+    "mineable_blocks": []
+  },
+
+  "glow-ink-sac": {
+    "name": "Glow Ink Sac",
+    "id": "minecraft:glow_ink_sac",
+    "description": "Glow squid drop; used to make glowing sign text or item frames.",
+    "image": "/images/glow_ink_sac.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "decor"],
+    "mineable_blocks": []
+  },
+
+  "nautilus-shell": {
+    "name": "Nautilus Shell",
+    "id": "minecraft:nautilus_shell",
+    "description": "Rare from drowned/fishing; used to craft a conduit.",
+    "image": "/images/nautilus_shell.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "ocean", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "prismarine-shard": {
+    "name": "Prismarine Shard",
+    "id": "minecraft:prismarine_shard",
+    "description": "Guardian/elder guardian drop; used in prismarine blocks and sea lanterns.",
+    "image": "/images/prismarine_shard.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "ocean", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "prismarine-crystals": {
+    "name": "Prismarine Crystals",
+    "id": "minecraft:prismarine_crystals",
+    "description": "Drops from guardians/elder guardians; used for sea lanterns.",
+    "image": "/images/prismarine_crystals.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "ocean", "crafting"],
+    "mineable_blocks": []
+  },
+
+  "shulker-shell": {
+    "name": "Shulker Shell",
+    "id": "minecraft:shulker_shell",
+    "description": "Dropped by shulkers; craft with a chest to make a shulker box.",
+    "image": "/images/shulker_shell.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "end", "storage"],
+    "mineable_blocks": []
+  },
+
+  "wither-skeleton-skull": {
+    "name": "Wither Skeleton Skull",
+    "id": "minecraft:wither_skeleton_skull",
+    "description": "Rare drop; needed to summon the Wither boss.",
+    "image": "/images/wither_skeleton_skull.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "nether", "boss"],
+    "mineable_blocks": []
+  },
+
+  "nether-star": {
+    "name": "Nether Star",
+    "id": "minecraft:nether_star",
+    "description": "Dropped by the Wither; used to craft a beacon.",
+    "image": "/images/nether_star.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["boss-loot", "nether", "rare"],
+    "mineable_blocks": []
+  },
+
+  "dragon-egg": {
+    "name": "Dragon Egg",
+    "id": "minecraft:dragon_egg",
+    "description": "Unique trophy from the first Ender Dragon kill.",
+    "image": "/images/dragon_egg.png",
+    "crafting_recipe": null,
+    "stats": { "gravity": "teleports when interacted" },
+    "tags": ["boss-loot", "end", "trophy"],
+    "mineable_blocks": []
+  },
+
+  "dragon-head": {
+    "name": "Dragon Head",
+    "id": "minecraft:dragon_head",
+    "description": "Wearable/placable head found on End ships; redstone-animatable.",
+    "image": "/images/dragon_head.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["loot", "end", "decor", "wearable"],
+    "mineable_blocks": []
+  },
+
+  "totem-of-undying": {
+    "name": "Totem of Undying",
+    "id": "minecraft:totem_of_undying",
+    "description": "Evoker drop; prevents death when held in hand on lethal damage.",
+    "image": "/images/totem_of_undying.png",
+    "crafting_recipe": null,
+    "stats": { "consumed_on_use": true },
+    "tags": ["mob-loot", "rare", "combat"],
+    "mineable_blocks": []
+  },
+
+  "turtle-scute": {
+    "name": "Scute",
+    "id": "minecraft:scute",
+    "description": "Dropped when baby turtles grow; used to craft the Turtle Shell helmet.",
+    "image": "/images/scute.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "ocean", "armor-material"],
+    "mineable_blocks": []
+  },
+
+  "goat-horn": {
+    "name": "Goat Horn",
+    "id": "minecraft:goat_horn",
+    "description": "Obtained when a charging goat rams certain blocks; plays a sound.",
+    "image": "/images/goat_horn.png",
+    "crafting_recipe": null,
+    "stats": { "variants": "8 sounds" },
+    "tags": ["mob-loot", "music", "utility"],
+    "mineable_blocks": []
+  },
+
+  "breeze-rod": {
+    "name": "Breeze Rod",
+    "id": "minecraft:breeze_rod",
+    "description": "Dropped by the Breeze in Trial Chambers; used to craft wind-related items.",
+    "image": "/images/breeze_rod.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["mob-loot", "trial-chambers"],
+    "mineable_blocks": []
+  },
+  "conduit": {
+    "name": "Conduit",
+    "id": "minecraft:conduit",
+    "description": "Beacon of the sea. Grants Conduit Power underwater (breathing, mining speed, vision).",
+    "image": "/images/conduit.png",
+    "crafting_recipe": [
+      [null, "nautilus_shell", null],
+      ["nautilus_shell", "heart_of_the_sea", "nautilus_shell"],
+      [null, "nautilus_shell", null]
+    ],
+    "stats": {
+      "effect_radius": "32–96 blocks (depending on prismarine frame)"
+    },
+    "tags": ["block", "ocean", "endgame", "beacon"],
+    "mineable_blocks": []
+  },
+
+  "beacon": {
+    "name": "Beacon",
+    "id": "minecraft:beacon",
+    "description": "Endgame block that projects a beam and grants status effects in range when powered by mineral pyramid.",
+    "image": "/images/beacon.png",
+    "crafting_recipe": [
+      ["glass", "glass", "glass"],
+      ["obsidian", "nether_star", "obsidian"],
+      ["obsidian", "obsidian", "obsidian"]
+    ],
+    "stats": {
+      "effects": ["Speed", "Haste", "Resistance", "Jump Boost", "Strength"],
+      "levels": 4
+    },
+    "tags": ["block", "endgame", "boss-loot"],
+    "mineable_blocks": []
+  },
+
+  "sea-lantern": {
+    "name": "Sea Lantern",
+    "id": "minecraft:sea_lantern",
+    "description": "Underwater light block crafted from prismarine shards and crystals.",
+    "image": "/images/sea_lantern.png",
+    "crafting_recipe": [
+      ["prismarine_shard", "prismarine_crystals", "prismarine_shard"],
+      ["prismarine_crystals", "prismarine_shard", "prismarine_crystals"],
+      ["prismarine_shard", "prismarine_crystals", "prismarine_shard"]
+    ],
+    "stats": { "light_level": 15 },
+    "tags": ["block", "light", "ocean"],
+    "mineable_blocks": []
+  },
+
+  "netherite-upgrade-template": {
+    "name": "Smithing Template: Netherite Upgrade",
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "description": "Upgrades diamond gear to netherite (keeps enchantments).",
+    "image": "/images/netherite_upgrade_template.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "netherite_upgrade_smithing_template",
+        "netherrack",
+        "netherrack",
+        "netherrack",
+        "netherrack",
+        "netherrack",
+        "netherrack",
+        "diamond",
+        "diamond"
+      ]
+    },
+    "smithing_recipe": {
+      "base": [
+        "diamond_sword",
+        "diamond_pickaxe",
+        "diamond_axe",
+        "diamond_shovel",
+        "diamond_hoe",
+        "diamond_helmet",
+        "diamond_chestplate",
+        "diamond_leggings",
+        "diamond_boots"
+      ],
+      "addition": "netherite_ingot",
+      "result": "corresponding netherite item (upgraded)"
+    },
+    "stats": {},
+    "tags": ["smithing", "template", "endgame"]
+  },
+
+  "sentry-trim": {
+    "name": "Smithing Template: Sentry Armor Trim",
+    "id": "minecraft:sentry_armor_trim_smithing_template",
+    "description": "Trim pattern from Pillager Outposts.",
+    "image": "/images/trim_sentry.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "sentry_armor_trim_smithing_template",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": [
+        "diamond_helmet",
+        "diamond_chestplate",
+        "diamond_leggings",
+        "diamond_boots",
+        "iron_*",
+        "golden_*",
+        "leather_*",
+        "chainmail_*",
+        "netherite_*",
+        "turtle_helmet"
+      ],
+      "addition": [
+        "iron_ingot",
+        "copper_ingot",
+        "gold_ingot",
+        "redstone",
+        "emerald",
+        "lapis_lazuli",
+        "diamond",
+        "amethyst_shard",
+        "netherite_ingot",
+        "quartz"
+      ],
+      "result": "same armor (cosmetic trim applied)"
+    },
+    "tags": ["smithing", "template", "trim"]
+  },
+
+  "dune-trim": {
+    "name": "Smithing Template: Dune Armor Trim",
+    "id": "minecraft:dune_armor_trim_smithing_template",
+    "description": "Trim pattern from Desert Temples.",
+    "image": "/images/trim_dune.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "dune_armor_trim_smithing_template",
+        "sandstone",
+        "sandstone",
+        "sandstone",
+        "sandstone",
+        "sandstone",
+        "sandstone",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim"]
+  },
+
+  "coast-trim": {
+    "name": "Smithing Template: Coast Armor Trim",
+    "id": "minecraft:coast_armor_trim_smithing_template",
+    "description": "Trim pattern from Shipwrecks.",
+    "image": "/images/trim_coast.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "coast_armor_trim_smithing_template",
+        "stone",
+        "stone",
+        "stone",
+        "stone",
+        "stone",
+        "stone",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim"]
+  },
+
+  "eye-trim": {
+    "name": "Smithing Template: Eye Armor Trim",
+    "id": "minecraft:eye_armor_trim_smithing_template",
+    "description": "Trim pattern from Strongholds.",
+    "image": "/images/trim_eye.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "eye_armor_trim_smithing_template",
+        "stone",
+        "stone",
+        "stone",
+        "stone",
+        "stone",
+        "stone",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim"]
+  },
+
+  "host-trim": {
+    "name": "Smithing Template: Host Armor Trim",
+    "id": "minecraft:host_armor_trim_smithing_template",
+    "description": "Trim pattern from Trail Ruins.",
+    "image": "/images/trim_host.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "host_armor_trim_smithing_template",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim"]
+  },
+
+  "raiser-trim": {
+    "name": "Smithing Template: Raiser Armor Trim",
+    "id": "minecraft:raiser_armor_trim_smithing_template",
+    "description": "Trim pattern from Trail Ruins.",
+    "image": "/images/trim_raiser.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "raiser_armor_trim_smithing_template",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim"]
+  },
+
+  "rib-trim": {
+    "name": "Smithing Template: Rib Armor Trim",
+    "id": "minecraft:rib_armor_trim_smithing_template",
+    "description": "Trim pattern from Nether Fortresses.",
+    "image": "/images/trim_rib.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "rib_armor_trim_smithing_template",
+        "netherrack",
+        "netherrack",
+        "netherrack",
+        "netherrack",
+        "netherrack",
+        "netherrack",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim", "nether"]
+  },
+
+  "shader-trim": {
+    "name": "Smithing Template: Shader Armor Trim",
+    "id": "minecraft:shader_armor_trim_smithing_template",
+    "description": "Trim pattern from Bastion Remnants.",
+    "image": "/images/trim_shader.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "shader_armor_trim_smithing_template",
+        "blackstone",
+        "blackstone",
+        "blackstone",
+        "blackstone",
+        "blackstone",
+        "blackstone",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim", "nether"]
+  },
+
+  "silence-trim": {
+    "name": "Smithing Template: Silence Armor Trim",
+    "id": "minecraft:silence_armor_trim_smithing_template",
+    "description": "Trim pattern from Ancient Cities (very rare).",
+    "image": "/images/trim_silence.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "silence_armor_trim_smithing_template",
+        "deepslate",
+        "deepslate",
+        "deepslate",
+        "deepslate",
+        "deepslate",
+        "deepslate",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim", "ancient-city"]
+  },
+
+  "snout-trim": {
+    "name": "Smithing Template: Snout Armor Trim",
+    "id": "minecraft:snout_armor_trim_smithing_template",
+    "description": "Trim pattern from Bastion Remnants.",
+    "image": "/images/trim_snout.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "snout_armor_trim_smithing_template",
+        "blackstone",
+        "blackstone",
+        "blackstone",
+        "blackstone",
+        "blackstone",
+        "blackstone",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim", "nether"]
+  },
+
+  "spire-trim": {
+    "name": "Smithing Template: Spire Armor Trim",
+    "id": "minecraft:spire_armor_trim_smithing_template",
+    "description": "Trim pattern from End Cities.",
+    "image": "/images/trim_spire.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "spire_armor_trim_smithing_template",
+        "purpur_block",
+        "purpur_block",
+        "purpur_block",
+        "purpur_block",
+        "purpur_block",
+        "purpur_block",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim", "end"]
+  },
+
+  "tide-trim": {
+    "name": "Smithing Template: Tide Armor Trim",
+    "id": "minecraft:tide_armor_trim_smithing_template",
+    "description": "Trim pattern from Ocean Monuments (Elder Guardian).",
+    "image": "/images/trim_tide.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "tide_armor_trim_smithing_template",
+        "prismarine",
+        "prismarine",
+        "prismarine",
+        "prismarine",
+        "prismarine",
+        "prismarine",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim", "ocean"]
+  },
+
+  "vex-trim": {
+    "name": "Smithing Template: Vex Armor Trim",
+    "id": "minecraft:vex_armor_trim_smithing_template",
+    "description": "Trim pattern from Woodland Mansions.",
+    "image": "/images/trim_vex.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "vex_armor_trim_smithing_template",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim"]
+  },
+
+  "ward-trim": {
+    "name": "Smithing Template: Ward Armor Trim",
+    "id": "minecraft:ward_armor_trim_smithing_template",
+    "description": "Trim pattern from Ancient Cities.",
+    "image": "/images/trim_ward.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "ward_armor_trim_smithing_template",
+        "deepslate",
+        "deepslate",
+        "deepslate",
+        "deepslate",
+        "deepslate",
+        "deepslate",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim", "ancient-city"]
+  },
+
+  "wayfinder-trim": {
+    "name": "Smithing Template: Wayfinder Armor Trim",
+    "id": "minecraft:wayfinder_armor_trim_smithing_template",
+    "description": "Trim pattern from Trail Ruins.",
+    "image": "/images/trim_wayfinder.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "wayfinder_armor_trim_smithing_template",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "terracotta",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim"]
+  },
+
+  "wild-trim": {
+    "name": "Smithing Template: Wild Armor Trim",
+    "id": "minecraft:wild_armor_trim_smithing_template",
+    "description": "Trim pattern from Jungle Temples.",
+    "image": "/images/trim_wild.png",
+    "crafting_recipe": {
+      "type": "duplication",
+      "ingredients": [
+        "wild_armor_trim_smithing_template",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "emerald",
+        "emerald"
+      ]
+    },
+    "smithing_recipe": {
+      "base": "any_armor",
+      "addition": "any_trim_material",
+      "result": "trimmed armor"
+    },
+    "tags": ["smithing", "template", "trim", "jungle"]
+  },
+  "brush": {
+    "name": "Brush",
+    "id": "minecraft:brush",
+    "description": "Used to extract items from suspicious sand/gravel in archaeology sites.",
+    "image": "/images/brush.png",
+    "crafting_recipe": [
+      [null, "feather", null],
+      [null, "copper_ingot", null],
+      [null, "stick", null]
+    ],
+    "stats": { "durability": 64 },
+    "tags": ["tool", "archaeology"],
+    "mineable_blocks": []
+  },
+
+  "suspicious-sand": {
+    "name": "Suspicious Sand",
+    "id": "minecraft:suspicious_sand",
+    "description": "Fragile sand that contains hidden loot; brush to extract without breaking.",
+    "image": "/images/suspicious_sand.png",
+    "crafting_recipe": null,
+    "stats": { "gravity": true, "loot": "archaeology table per structure" },
+    "tags": ["block", "archaeology"],
+    "mineable_blocks": []
+  },
+
+  "suspicious-gravel": {
+    "name": "Suspicious Gravel",
+    "id": "minecraft:suspicious_gravel",
+    "description": "Fragile gravel with buried loot; brush it instead of mining.",
+    "image": "/images/suspicious_gravel.png",
+    "crafting_recipe": null,
+    "stats": { "gravity": true, "loot": "archaeology table per structure" },
+    "tags": ["block", "archaeology"],
+    "mineable_blocks": []
+  },
+
+  "decorated-pot": {
+    "name": "Decorated Pot",
+    "id": "minecraft:decorated_pot",
+    "description": "Placeable pottery made from 4 pottery sherds or bricks; sides show the chosen designs.",
+    "image": "/images/decorated_pot.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients_note": "Any combination of 4 pottery sherds OR 4 bricks; arrangement sets the four side designs.",
+      "ingredients_examples": ["pottery_sherd*", "brick"]
+    },
+    "stats": {
+      "container_like": false,
+      "break_behavior": "drops sherds if broken with tool; otherwise drops as item"
+    },
+    "tags": ["block", "decor", "archaeology"],
+    "mineable_blocks": []
+  },
+
+  "angler-pottery-sherd": {
+    "name": "Angler Pottery Sherd",
+    "id": "minecraft:angler_pottery_sherd",
+    "description": "Sherd depicting a fish/angler motif.",
+    "image": "/images/angler_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Warm Ocean Ruins (suspicious sand)"]
+  },
+  "archer-pottery-sherd": {
+    "name": "Archer Pottery Sherd",
+    "id": "minecraft:archer_pottery_sherd",
+    "description": "Sherd with bow/archer motif.",
+    "image": "/images/archer_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Plains/Cold Ocean Ruins (suspicious sand)"]
+  },
+  "arms-up-pottery-sherd": {
+    "name": "Arms Up Pottery Sherd",
+    "id": "minecraft:arms_up_pottery_sherd",
+    "description": "Figure with raised arms.",
+    "image": "/images/arms_up_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Desert Temples/Ruins (suspicious sand)"]
+  },
+  "blade-pottery-sherd": {
+    "name": "Blade Pottery Sherd",
+    "id": "minecraft:blade_pottery_sherd",
+    "description": "Weapon/blade icon.",
+    "image": "/images/blade_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Warm Ocean Ruins"]
+  },
+  "brewer-pottery-sherd": {
+    "name": "Brewer Pottery Sherd",
+    "id": "minecraft:brewer_pottery_sherd",
+    "description": "Bottle/brewing motif.",
+    "image": "/images/brewer_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Cold Ocean Ruins"]
+  },
+  "burn-pottery-sherd": {
+    "name": "Burn Pottery Sherd",
+    "id": "minecraft:burn_pottery_sherd",
+    "description": "Fire/flame motif.",
+    "image": "/images/burn_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Desert structures"]
+  },
+  "danger-pottery-sherd": {
+    "name": "Danger Pottery Sherd",
+    "id": "minecraft:danger_pottery_sherd",
+    "description": "Creeper-like warning symbol.",
+    "image": "/images/danger_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Jungle Temples/Warm Ruins"]
+  },
+  "explorer-pottery-sherd": {
+    "name": "Explorer Pottery Sherd",
+    "id": "minecraft:explorer_pottery_sherd",
+    "description": "Map/compass motif.",
+    "image": "/images/explorer_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Trail Ruins/Desert"]
+  },
+  "friend-pottery-sherd": {
+    "name": "Friend Pottery Sherd",
+    "id": "minecraft:friend_pottery_sherd",
+    "description": "Hands/ally symbol.",
+    "image": "/images/friend_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Cold Ocean Ruins"]
+  },
+  "heart-pottery-sherd": {
+    "name": "Heart Pottery Sherd",
+    "id": "minecraft:heart_pottery_sherd",
+    "description": "Heart symbol.",
+    "image": "/images/heart_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Warm/Cold Ocean Ruins"]
+  },
+  "heartbreak-pottery-sherd": {
+    "name": "Heartbreak Pottery Sherd",
+    "id": "minecraft:heartbreak_pottery_sherd",
+    "description": "Broken heart symbol.",
+    "image": "/images/heartbreak_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Desert Ruins/Temples"]
+  },
+  "howl-pottery-sherd": {
+    "name": "Howl Pottery Sherd",
+    "id": "minecraft:howl_pottery_sherd",
+    "description": "Wolf/howl motif.",
+    "image": "/images/howl_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Trail Ruins"]
+  },
+  "miner-pottery-sherd": {
+    "name": "Miner Pottery Sherd",
+    "id": "minecraft:miner_pottery_sherd",
+    "description": "Pickaxe/miner motif.",
+    "image": "/images/miner_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Trail Ruins/Jungle"]
+  },
+  "mourner-pottery-sherd": {
+    "name": "Mourner Pottery Sherd",
+    "id": "minecraft:mourner_pottery_sherd",
+    "description": "Wailing/tears motif.",
+    "image": "/images/mourner_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Ancient City vicinity/Desert"]
+  },
+  "plenty-pottery-sherd": {
+    "name": "Plenty Pottery Sherd",
+    "id": "minecraft:plenty_pottery_sherd",
+    "description": "Bounty/harvest motif.",
+    "image": "/images/plenty_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Warm/Cold Ocean Ruins"]
+  },
+  "prize-pottery-sherd": {
+    "name": "Prize Pottery Sherd",
+    "id": "minecraft:prize_pottery_sherd",
+    "description": "Trophy/prize motif.",
+    "image": "/images/prize_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Desert Ruins"]
+  },
+  "sheaf-pottery-sherd": {
+    "name": "Sheaf Pottery Sherd",
+    "id": "minecraft:sheaf_pottery_sherd",
+    "description": "Wheat/sheaf motif.",
+    "image": "/images/sheaf_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Desert/Trail Ruins"]
+  },
+  "shelter-pottery-sherd": {
+    "name": "Shelter Pottery Sherd",
+    "id": "minecraft:shelter_pottery_sherd",
+    "description": "House/shelter symbol.",
+    "image": "/images/shelter_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Cold Ocean Ruins"]
+  },
+  "skull-pottery-sherd": {
+    "name": "Skull Pottery Sherd",
+    "id": "minecraft:skull_pottery_sherd",
+    "description": "Skull motif.",
+    "image": "/images/skull_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Desert/Jungle structures"]
+  },
+  "snort-pottery-sherd": {
+    "name": "Snort Pottery Sherd",
+    "id": "minecraft:snort_pottery_sherd",
+    "description": "Pig/snort motif.",
+    "image": "/images/snort_pottery_sherd.png",
+    "crafting_recipe": null,
+    "stats": { "use": "Decorated Pot side pattern" },
+    "tags": ["sherd", "archaeology", "decor"],
+    "sources": ["Plains/Desert Ruins"]
+  },
+  "trial-key": {
+    "name": "Trial Key",
+    "id": "minecraft:trial_key",
+    "description": "Reward from Trial Chambers. Unlocks Vault blocks for loot.",
+    "image": "/images/trial_key.png",
+    "crafting_recipe": null,
+    "stats": { "stackable": true, "max_stack": 64 },
+    "tags": ["trial-chambers", "loot", "key"],
+    "mineable_blocks": []
+  },
+
+  "vault": {
+    "name": "Vault",
+    "id": "minecraft:vault",
+    "description": "Block found in Trial Chambers. Requires a Trial Key to unlock for loot. After use, it recharges after a cooldown.",
+    "image": "/images/vault.png",
+    "crafting_recipe": null,
+    "stats": { "loot": "Trial Chamber loot tables", "cooldown": "per player" },
+    "tags": ["trial-chambers", "block", "loot"],
+    "mineable_blocks": []
+  },
+
+  "wind-charge": {
+    "name": "Wind Charge",
+    "id": "minecraft:wind_charge",
+    "description": "Throwable projectile crafted from Breeze Rods. Creates a gust that knocks back entities.",
+    "image": "/images/wind_charge.png",
+    "crafting_recipe": [
+      [null, "breeze_rod", null],
+      [null, "gunpowder", null],
+      [null, null, null]
+    ],
+    "stats": { "effect": "knockback push", "stackable": 16 },
+    "tags": ["trial-chambers", "ammo", "utility"],
+    "mineable_blocks": []
+  },
+  "scaffolding": {
+    "name": "Scaffolding",
+    "id": "minecraft:scaffolding",
+    "description": "Fast vertical building; climbable and easy to break from bottom.",
+    "image": "/images/scaffolding.png",
+    "crafting_recipe": [
+      ["bamboo", "string", "bamboo"],
+      ["bamboo", null, "bamboo"],
+      ["bamboo", null, "bamboo"]
+    ],
+    "stats": { "max_horizontal": 4, "fall_behavior": "falls when unsupported" },
+    "tags": ["block", "building", "utility"],
+    "mineable_blocks": []
+  },
+
+  "sponge": {
+    "name": "Sponge",
+    "id": "minecraft:sponge",
+    "description": "Absorbs water in a radius; turns into Wet Sponge.",
+    "image": "/images/sponge.png",
+    "crafting_recipe": null,
+    "stats": { "absorb_radius": "≈7×7×7" },
+    "tags": ["block", "ocean", "utility"],
+    "mineable_blocks": [],
+    "sources": ["Ocean Monuments (rooms, elder guardians)"]
+  },
+
+  "wet-sponge": {
+    "name": "Wet Sponge",
+    "id": "minecraft:wet_sponge",
+    "description": "Water-logged sponge; dry it by smelting or in Nether.",
+    "image": "/images/wet_sponge.png",
+    "crafting_recipe": {
+      "type": "smelting",
+      "input": "wet_sponge",
+      "fuel_note": "furnace/smoker/blast (furnace typical)"
+    },
+    "stats": {},
+    "tags": ["block", "ocean", "utility"],
+    "mineable_blocks": []
+  },
+
+  "candle": {
+    "name": "Candle",
+    "id": "minecraft:candle",
+    "description": "Place 1–4 per block; dyeable; can sit on cake.",
+    "image": "/images/candle.png",
+    "crafting_recipe": {
+      "type": "shapeless",
+      "ingredients": ["string", "honeycomb"]
+    },
+    "stats": { "light_level": "12 (1) → 3 (4)" },
+    "tags": ["block", "light", "decor"],
+    "mineable_blocks": []
+  },
+
+  "chain": {
+    "name": "Chain",
+    "id": "minecraft:chain",
+    "description": "Decor/hanging block; rotates with placement.",
+    "image": "/images/chain.png",
+    "crafting_recipe": [
+      [null, "iron_nugget", null],
+      [null, "iron_ingot", null],
+      [null, "iron_nugget", null]
+    ],
+    "stats": {},
+    "tags": ["block", "decor", "utility"],
+    "mineable_blocks": []
+  },
+
+  "bell": {
+    "name": "Bell",
+    "id": "minecraft:bell",
+    "description": "Village meeting block; rings on redstone or interaction.",
+    "image": "/images/bell.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["block", "village", "decor"],
+    "mineable_blocks": [],
+    "sources": ["Village structures (loot-only)"]
+  },
+
+  "honey-block": {
+    "name": "Honey Block",
+    "id": "minecraft:honey_block",
+    "description": "Sticky movement block (slows entities); redstone use cases.",
+    "image": "/images/honey_block.png",
+    "crafting_recipe": [
+      ["honey_bottle", "honey_bottle", null],
+      ["honey_bottle", "honey_bottle", null],
+      [null, null, null]
+    ],
+    "stats": {
+      "movement": "slow/slide",
+      "slime_interaction": "does not stick to slime"
+    },
+    "tags": ["block", "redstone", "utility"],
+    "mineable_blocks": []
+  },
+
+  "honeycomb-block": {
+    "name": "Honeycomb Block",
+    "id": "minecraft:honeycomb_block",
+    "description": "Decorative block from honeycomb.",
+    "image": "/images/honeycomb_block.png",
+    "crafting_recipe": [
+      ["honeycomb", "honeycomb", null],
+      ["honeycomb", "honeycomb", null],
+      [null, null, null]
+    ],
+    "stats": {},
+    "tags": ["block", "decor"],
+    "mineable_blocks": []
+  },
+
+  "beehive": {
+    "name": "Beehive",
+    "id": "minecraft:beehive",
+    "description": "Artificial bee home; harvest honey/honeycomb with tools.",
+    "image": "/images/beehive.png",
+    "crafting_recipe": [
+      ["planks", "planks", "planks"],
+      ["honeycomb", "honeycomb", "honeycomb"],
+      ["planks", "planks", "planks"]
+    ],
+    "stats": { "bees": "up to 3", "honey_levels": 5 },
+    "tags": ["block", "bees", "farm"],
+    "mineable_blocks": []
+  },
+
+  "lightning-rod": {
+    "name": "Lightning Rod",
+    "id": "minecraft:lightning_rod",
+    "description": "Attracts lightning; emits redstone pulse on strike.",
+    "image": "/images/lightning_rod.png",
+    "crafting_recipe": [
+      [null, "copper_ingot", null],
+      [null, "copper_ingot", null],
+      [null, "copper_ingot", null]
+    ],
+    "stats": {},
+    "tags": ["block", "redstone", "weather"],
+    "mineable_blocks": []
+  },
+
+  "lodestone": {
+    "name": "Lodestone",
+    "id": "minecraft:lodestone",
+    "description": "Bind a compass to point here (right-click compass).",
+    "image": "/images/lodestone.png",
+    "crafting_recipe": [
+      [
+        "chiseled_stone_bricks",
+        "chiseled_stone_bricks",
+        "chiseled_stone_bricks"
+      ],
+      ["chiseled_stone_bricks", "netherite_ingot", "chiseled_stone_bricks"],
+      [
+        "chiseled_stone_bricks",
+        "chiseled_stone_bricks",
+        "chiseled_stone_bricks"
+      ]
+    ],
+    "stats": {},
+    "tags": ["block", "utility", "navigation"],
+    "mineable_blocks": []
+  },
+
+  "target": {
+    "name": "Target",
+    "id": "minecraft:target",
+    "description": "Emits redstone when hit by projectiles; strength based on accuracy.",
+    "image": "/images/target.png",
+    "crafting_recipe": [
+      [null, "redstone", null],
+      ["redstone", "hay_block", "redstone"],
+      [null, "redstone", null]
+    ],
+    "stats": { "max_signal": 15 },
+    "tags": ["block", "redstone", "minigame"],
+    "mineable_blocks": []
+  },
+
+  "respawn-anchor": {
+    "name": "Respawn Anchor",
+    "id": "minecraft:respawn_anchor",
+    "description": "Set Nether respawn point; charge with glowstone (1–4). Explodes in Overworld/End.",
+    "image": "/images/respawn_anchor.png",
+    "crafting_recipe": [
+      ["crying_obsidian", "glowstone", "crying_obsidian"],
+      ["crying_obsidian", "glowstone", "crying_obsidian"],
+      ["crying_obsidian", "glowstone", "crying_obsidian"]
+    ],
+    "stats": { "charges": 4, "dimension": "Nether only" },
+    "tags": ["block", "nether", "utility"],
+    "mineable_blocks": []
+  },
+
+  "end-crystal": {
+    "name": "End Crystal",
+    "id": "minecraft:end_crystal",
+    "description": "Place on bedrock/obsidian to respawn Ender Dragon; explosive.",
+    "image": "/images/end_crystal.png",
+    "crafting_recipe": [
+      ["glass", "glass", "glass"],
+      ["glass", "eye_of_ender", "glass"],
+      ["glass", "ghast_tear", "glass"]
+    ],
+    "stats": { "explodes": true },
+    "tags": ["block", "end", "boss"],
+    "mineable_blocks": []
+  },
+
+  "lead": {
+    "name": "Lead",
+    "id": "minecraft:lead",
+    "description": "Leash passive mobs; tie to fence.",
+    "image": "/images/lead.png",
+    "crafting_recipe": [
+      ["string", "string", null],
+      ["string", "slime_ball", null],
+      [null, "string", null]
+    ],
+    "stats": {},
+    "tags": ["tool", "taming", "utility"],
+    "mineable_blocks": []
+  },
+
+  "name-tag": {
+    "name": "Name Tag",
+    "id": "minecraft:name_tag",
+    "description": "Renamable in anvil; prevents mob despawn.",
+    "image": "/images/name_tag.png",
+    "crafting_recipe": null,
+    "stats": {},
+    "tags": ["utility", "loot"],
+    "mineable_blocks": [],
+    "sources": [
+      "Dungeon/structure loot, fishing (treasure), trades (librarian)"
+    ]
   }
 }
