@@ -1,7 +1,10 @@
 .search-results-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  padding: 40px;
+  place-items: center;
+  row-gap: 20px;
 }
 
 .search-results-container .search-result-item {
